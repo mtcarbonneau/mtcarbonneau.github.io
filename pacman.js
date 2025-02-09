@@ -41,13 +41,32 @@ function drawPacman() {
 function drawGhosts() {
     ghosts.forEach(ghost => {
         context.beginPath();
-        context.arc(ghost.x, ghost.y, ghost.radius, 0, 2 * Math.PI);
+        context.arc(ghost.x, ghost.y, ghost.radius, Math.PI, 0);
+        context.lineTo(ghost.x + ghost.radius, ghost.y + ghost.radius);
+        context.lineTo(ghost.x - ghost.radius, ghost.y + ghost.radius);
+        context.closePath();
         context.fillStyle = ghost.color;
         context.fill();
         context.strokeStyle = 'black';
         context.lineWidth = 2;
         context.stroke();
-        context.closePath();
+
+        // Draw eyes
+        context.beginPath();
+        context.arc(ghost.x - 5, ghost.y - 5, 3, 0, 2 * Math.PI);
+        context.arc(ghost.x + 5, ghost.y - 5, 3, 0, 2 * Math.PI);
+        context.fillStyle = 'white';
+        context.fill();
+        context.strokeStyle = 'black';
+        context.lineWidth = 1;
+        context.stroke();
+
+        // Draw pupils
+        context.beginPath();
+        context.arc(ghost.x - 5, ghost.y - 5, 1, 0, 2 * Math.PI);
+        context.arc(ghost.x + 5, ghost.y - 5, 1, 0, 2 * Math.PI);
+        context.fillStyle = 'black';
+        context.fill();
     });
 }
 
