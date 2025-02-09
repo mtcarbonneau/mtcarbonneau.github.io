@@ -32,6 +32,9 @@ function drawPacman() {
     context.lineTo(pacman.x, pacman.y);
     context.fillStyle = 'yellow';
     context.fill();
+    context.strokeStyle = 'black';
+    context.lineWidth = 2;
+    context.stroke();
     context.closePath();
 }
 
@@ -41,6 +44,9 @@ function drawGhosts() {
         context.arc(ghost.x, ghost.y, ghost.radius, 0, 2 * Math.PI);
         context.fillStyle = ghost.color;
         context.fill();
+        context.strokeStyle = 'black';
+        context.lineWidth = 2;
+        context.stroke();
         context.closePath();
     });
 }
@@ -49,6 +55,9 @@ function drawMaze() {
     maze.forEach(wall => {
         context.fillStyle = 'blue';
         context.fillRect(wall.x, wall.y, wall.width, wall.height);
+        context.strokeStyle = 'black';
+        context.lineWidth = 2;
+        context.strokeRect(wall.x, wall.y, wall.width, wall.height);
     });
 }
 
