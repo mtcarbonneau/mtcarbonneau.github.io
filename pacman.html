@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Play Pac-Man - My GitHub Pages Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pacman.css">
 </head>
 <body>
     <div class="container">
@@ -18,9 +18,9 @@
             </ul>
         </nav>
         <div class="game-container">
-            <!-- Embed or link to the Pac-Man game here -->
-            <iframe src="https://example.com/pacman-game" width="600" height="400"></iframe>
+            <canvas id="pacman" width="600" height="400"></canvas>
         </div>
     </div>
+    <script src="pacman.js"></script>
 </body>
 </html>
