@@ -1,187 +1,250 @@
 const canvas = document.getElementById('pacman');
 const context = canvas.getContext('2d');
 
-// Game variables
+// Set canvas size explicitly
+canvas.width = 600;
+canvas.height = 400;
+
+// --- Game Variables ---
+const GRID_SIZE = 20; // Size of each grid cell
+const PACMAN_RADIUS = 10;
+const GHOST_RADIUS = 10;
+
 let pacman = {
-    x: 50,
-    y: 50,
-    radius: 15,
-    speed: 5,
-    direction: 'right'
+    x: GRID_SIZE,
+    y: GRID_SIZE,
+    radius: PACMAN_RADIUS,
+    speed: 3,
+    direction: null // 'up', 'down', 'left', 'right'
 };
 
 let ghosts = [
-    { x: 100, y: 100, radius: 15, speed: 3, direction: 'left', color: 'red' },
-    { x: 200, y: 200, radius: 15, speed: 3, direction: 'up', color: 'pink' }
+    { x: 200, y: 200, radius: GHOST_RADIUS, speed: 1.5, direction: 'left', color: 'red' },
+    { x: 400, y: 300, radius: GHOST_RADIUS, speed: 1.5, direction: 'up', color: 'pink' }
 ];
 
-let maze = [
-    { x: 50, y: 50, width: 500, height: 10 },
-    { x: 50, y: 50, width: 10, height: 300 },
-    { x: 50, y: 340, width: 500, height: 10 },
-    { x: 540, y: 50, width: 10, height: 300 },
-    // Add more maze walls here
-];
-
+let maze = [];
+let dots = [];
 let gameOver = false;
 
+// --- Helper Functions ---
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function checkCollision(x, y) {
+    return maze.some(wall => {
+        return x + PACMAN_RADIUS > wall.x &&
+               x - PACMAN_RADIUS < wall.x + wall.width &&
+               y + PACMAN_RADIUS > wall.y &&
+               y - PACMAN_RADIUS < wall.y + wall.height;
+    });
+}
+
+function checkGhostCollision() {
+    return ghosts.some(ghost => {
+        const dx = pacman.x - ghost.x;
+        const dy = pacman.y - ghost.y;
+        return Math.sqrt(dx * dx + dy * dy) < pacman.radius + ghost.radius;
+    });
+}
+
+// --- Game Initialization ---
+function generateMaze() {
+    const obstacles = [];
+
+    // Border walls
+    obstacles.push({ x: 0, y: 0, width: canvas.width, height: 10 });
+    obstacles.push({ x: 0, y: 0, width: 10, height: canvas.height });
+    obstacles.push({ x: 0, y: canvas.height - 10, width: canvas.width, height: 10 });
+    obstacles.push({ x: canvas.width - 10, y: 0, width: 10, height: canvas.height });
+
+    // Random internal obstacles
+    for (let i = 0; i < 8; i++) {
+        const x = getRandomInt(50, canvas.width - 150);
+        const y = getRandomInt(50, canvas.height - 150);
+        const width = getRandomInt(50, 100);
+        const height = getRandomInt(50, 100);
+        obstacles.push({ x: x, y: y, width: width, height: height });
+    }
+
+    return obstacles;
+}
+
+function generateDots() {
+    const newDots = [];
+    const dotSpacing = 30;
+    const startX = 25;
+    const startY = 25;
+
+    for (let y = startY; y < canvas.height - 25; y += dotSpacing) {
+        for (let x = startX; x < canvas.width - 25; x += dotSpacing) {
+            if (!checkCollision(x, y)) {
+                newDots.push({ x: x, y: y, radius: 3 });
+            }
+        }
+    }
+    return newDots;
+}
+
+function resetGame() {
+    gameOver = false;
+    maze = generateMaze();
+    pacman.x = GRID_SIZE;
+    pacman.y = GRID_SIZE;
+    pacman.direction = null;
+    ghosts = [
+        { x: 100, y: 100, radius: GHOST_RADIUS, speed: 1.5, direction: 'left', color: 'red' },
+        { x: 500, y: 300, radius: GHOST_RADIUS, speed: 1.5, direction: 'up', color: 'pink' }
+    ];
+    dots = generateDots();
+}
+
+// --- Drawing Functions ---
 function drawPacman() {
-    context.clearRect(0, 0, canvas.width, canvas.height);
     context.beginPath();
-    context.arc(pacman.x, pacman.y, pacman.radius, 0.2 * Math.PI, 1.8 * Math.PI);
+    const mouthAngle = 0.2 * Math.PI;
+    context.arc(pacman.x, pacman.y, pacman.radius, mouthAngle, 2 * Math.PI - mouthAngle);
     context.lineTo(pacman.x, pacman.y);
     context.fillStyle = 'yellow';
     context.fill();
-    context.strokeStyle = 'black';
-    context.lineWidth = 2;
-    context.stroke();
     context.closePath();
 }
 
-function drawGhosts() {
-    ghosts.forEach(ghost => {
-        context.beginPath();
-        context.arc(ghost.x, ghost.y, ghost.radius, Math.PI, 0);
-        context.lineTo(ghost.x + ghost.radius, ghost.y + ghost.radius);
-        context.lineTo(ghost.x - ghost.radius, ghost.y + ghost.radius);
-        context.closePath();
-        context.fillStyle = ghost.color;
-        context.fill();
-        context.strokeStyle = 'black';
-        context.lineWidth = 2;
-        context.stroke();
+function drawGhost(ghost) {
+    context.beginPath();
+    context.arc(ghost.x, ghost.y, ghost.radius, Math.PI, 0);
+    context.lineTo(ghost.x + ghost.radius, ghost.y + ghost.radius);
+    context.lineTo(ghost.x - ghost.radius, ghost.y + ghost.radius);
+    context.fillStyle = ghost.color;
+    context.fill();
+    context.closePath();
 
-        // Draw eyes
-        context.beginPath();
-        context.arc(ghost.x - 5, ghost.y - 5, 3, 0, 2 * Math.PI);
-        context.arc(ghost.x + 5, ghost.y - 5, 3, 0, 2 * Math.PI);
-        context.fillStyle = 'white';
-        context.fill();
-        context.strokeStyle = 'black';
-        context.lineWidth = 1;
-        context.stroke();
-
-        // Draw pupils
-        context.beginPath();
-        context.arc(ghost.x - 5, ghost.y - 5, 1, 0, 2 * Math.PI);
-        context.arc(ghost.x + 5, ghost.y - 5, 1, 0, 2 * Math.PI);
-        context.fillStyle = 'black';
-        context.fill();
-    });
+    // Eyes
+    context.fillStyle = 'white';
+    context.beginPath();
+    context.arc(ghost.x - 5, ghost.y - 3, 4, 0, 2 * Math.PI);
+    context.arc(ghost.x + 5, ghost.y - 3, 4, 0, 2 * Math.PI);
+    context.fill();
 }
 
 function drawMaze() {
+    context.fillStyle = 'blue';
     maze.forEach(wall => {
-        context.fillStyle = 'blue';
         context.fillRect(wall.x, wall.y, wall.width, wall.height);
-        context.strokeStyle = 'black';
-        context.lineWidth = 2;
-        context.strokeRect(wall.x, wall.y, wall.width, wall.height);
     });
 }
 
+function drawDots() {
+    context.fillStyle = 'pink';
+    dots.forEach(dot => {
+        context.beginPath();
+        context.arc(dot.x, dot.y, dot.radius, 0, 2 * Math.PI);
+        context.fill();
+        context.closePath();
+    });
+}
+
+// --- Movement Functions ---
 function movePacman() {
+    if (!pacman.direction) return;
+
     let nextX = pacman.x;
     let nextY = pacman.y;
 
     switch (pacman.direction) {
-        case 'right':
-            nextX += pacman.speed;
-            break;
-        case 'left':
-            nextX -= pacman.speed;
-            break;
-        case 'up':
-            nextY -= pacman.speed;
-            break;
-        case 'down':
-            nextY += pacman.speed;
-            break;
+        case 'right': nextX += pacman.speed; break;
+        case 'left': nextX -= pacman.speed; break;
+        case 'up': nextY -= pacman.speed; break;
+        case 'down': nextY += pacman.speed; break;
     }
 
-    if (!isCollidingWithMaze(nextX, nextY) && !isOutOfBounds(nextX, nextY)) {
+    if (!checkCollision(nextX, nextY)) {
         pacman.x = nextX;
         pacman.y = nextY;
     }
 }
 
-function isCollidingWithMaze(x, y) {
-    return maze.some(wall => {
-        return x + pacman.radius > wall.x &&
-               x - pacman.radius < wall.x + wall.width &&
-               y + pacman.radius > wall.y &&
-               y - pacman.radius < wall.y + wall.height;
-    });
-}
-
-function isOutOfBounds(x, y) {
-    return x - pacman.radius < 0 || x + pacman.radius > canvas.width ||
-           y - pacman.radius < 0 || y + pacman.radius > canvas.height;
-}
-
 function moveGhosts() {
     ghosts.forEach(ghost => {
+        let nextX = ghost.x;
+        let nextY = ghost.y;
+
         switch (ghost.direction) {
-            case 'right':
-                ghost.x += ghost.speed;
-                if (ghost.x + ghost.radius > canvas.width || isCollidingWithMaze(ghost.x + ghost.speed, ghost.y)) ghost.direction = 'left';
-                break;
-            case 'left':
-                ghost.x -= ghost.speed;
-                if (ghost.x - ghost.radius < 0 || isCollidingWithMaze(ghost.x - ghost.speed, ghost.y)) ghost.direction = 'right';
-                break;
-            case 'up':
-                ghost.y -= ghost.speed;
-                if (ghost.y - ghost.radius < 0 || isCollidingWithMaze(ghost.x, ghost.y - ghost.speed)) ghost.direction = 'down';
-                break;
-            case 'down':
-                ghost.y += ghost.speed;
-                if (ghost.y + ghost.radius > canvas.height || isCollidingWithMaze(ghost.x, ghost.y + ghost.speed)) ghost.direction = 'up';
-                break;
+            case 'right': nextX += ghost.speed; break;
+            case 'left': nextX -= ghost.speed; break;
+            case 'up': nextY -= ghost.speed; break;
+            case 'down': nextY += ghost.speed; break;
+        }
+
+        if (checkCollision(nextX, nextY)) {
+            const directions = ['right', 'left', 'up', 'down'];
+            ghost.direction = directions[Math.floor(Math.random() * directions.length)];
+        } else {
+            ghost.x = nextX;
+            ghost.y = nextY;
         }
     });
 }
 
-function checkCollisionWithGhosts() {
-    return ghosts.some(ghost => {
-        const dx = pacman.x - ghost.x;
-        const dy = pacman.y - ghost.y;
-        const distance = Math.sqrt(dx * dx + dy * dy);
-        return distance < pacman.radius + ghost.radius;
-    });
-}
+// --- Main Game Loop ---
+function update() {
+    if (gameOver) return;
 
-function updateGame() {
-    if (!gameOver) {
-        movePacman();
-        moveGhosts();
-        drawMaze();
-        drawPacman();
-        drawGhosts();
-        if (checkCollisionWithGhosts()) {
-            gameOver = true;
-            alert('Game Over!');
-        } else {
-            requestAnimationFrame(updateGame);
+    movePacman();
+    moveGhosts();
+
+    // Dot collision
+    for (let i = dots.length - 1; i >= 0; i--) {
+        const dot = dots[i];
+        const dx = pacman.x - dot.x;
+        const dy = pacman.y - dot.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+
+        if (distance < pacman.radius + dot.radius) {
+            dots.splice(i, 1);
         }
     }
+
+    // Ghost collision
+    if (checkGhostCollision()) {
+        gameOver = true;
+        alert('Game Over! Press Space to play again');
+        return;
+    }
+
+    // Clear canvas
+    context.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Draw everything
+    drawMaze();
+    drawPacman();
+    ghosts.forEach(ghost => drawGhost(ghost));
+    drawDots();
+
+    requestAnimationFrame(update);
 }
 
+// --- Event Listeners ---
 document.addEventListener('keydown', (event) => {
-    switch (event.key) {
-        case 'ArrowRight':
-            pacman.direction = 'right';
-            break;
-        case 'ArrowLeft':
-            pacman.direction = 'left';
-            break;
-        case 'ArrowUp':
-            pacman.direction = 'up';
-            break;
-        case 'ArrowDown':
-            pacman.direction = 'down';
-            break;
+    if (gameOver && event.code === 'Space') {
+        resetGame();
+        update();
+        return;
+    }
+
+    if (gameOver) return;
+
+    switch (event.code) {
+        case 'ArrowRight': pacman.direction = 'right'; break;
+        case 'ArrowLeft': pacman.direction = 'left'; break;
+        case 'ArrowUp': pacman.direction = 'up'; break;
+        case 'ArrowDown': pacman.direction = 'down'; break;
     }
 });
 
-updateGame();
+// --- Initialize Game ---
+resetGame();
+update();
