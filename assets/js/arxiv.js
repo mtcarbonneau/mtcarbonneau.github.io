@@ -7,10 +7,17 @@ async function loadPapers() {
     tableBody.innerHTML = '<tr><td colspan="4">Loading papers...</td></tr>';
 
     try {
-        const response = await fetch('/data/papers_data.json');
-        if (!response.ok) throw new Error('Failed to load papers data');
+        // Fix: Update path to be relative to the HTML file
+        const response = await fetch('../data/papers_data.json');
+        console.log('Attempting to fetch from:', response.url); // Debug log
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         
         const data = await response.json();
+        console.log('Loaded data:', data); // Debug log
+        
         if (!data.length) {
             tableBody.innerHTML = '<tr><td colspan="4">No papers found</td></tr>';
             return;
@@ -20,7 +27,7 @@ async function loadPapers() {
         displayPage(1);
         
     } catch (error) {
-        console.error('Error:', error);
+        console.error('Detailed error:', error);
         tableBody.innerHTML = `<tr><td colspan="4">Error loading papers: ${error.message}</td></tr>`;
     }
 }
@@ -62,41 +69,3 @@ function changePage(delta) {
 
 // Initialize when page loads
 document.addEventListener('DOMContentLoaded', loadPapers);
-
-function displayResults(papers) {
-    const tbody = document.getElementById('resultsBody');
-    tbody.innerHTML = ''; // Clear existing results
-
-    papers.forEach(paper => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td>${paper.title}</td>
-            <td>${paper.authors}</td>
-            <td>${new Date(paper.published).toLocaleDateString()}</td>
-            <td>
-                <a href="${paper.pdf_link}" target="_blank">PDF</a>
-                <a href="${paper.link}" target="_blank">Abstract</a>
-            </td>
-        `;
-        tbody.appendChild(row);
-    });
-}
-
-function switchTab(tabName) {
-    // Hide all tab contents
-    document.querySelectorAll('.tab-content').forEach(tab => {
-        tab.classList.remove('active');
-    });
-    
-    // Deactivate all tab buttons
-    document.querySelectorAll('.tab-button').forEach(button => {
-        button.classList.remove('active');
-    });
-    
-    // Show selected tab content and activate button
-    document.getElementById(tabName).classList.add('active');
-    document.querySelector(`[onclick="switchTab('${tabName}')"]`).classList.add('active');
-    
-    // Load content for the selected tab
-    loadPapers();
-}
