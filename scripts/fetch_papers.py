@@ -3,8 +3,7 @@
 try:
     import feedparser
 except ImportError as exc:
-    raise ImportError(
-        "Please install feedparser: pip install feedparser") from exc
+    raise ImportError("Please install feedparser: pip install feedparser") from exc
 
 import json
 import os
@@ -15,7 +14,7 @@ from urllib.parse import quote
 def fetch_papers():
     """
     Fetches the latest papers from the arXiv API based on specific query parameters.
-    
+
     The function performs the following steps:
     1. Verifies that the 'feedparser' module is properly installed.
     2. Constructs a query URL for the arXiv API to search for papers related to
@@ -24,13 +23,13 @@ def fetch_papers():
     4. Processes the feed entries to extract title, authors, date, and links.
     5. Ensures that the 'data' directory exists.
     6. Saves the processed paper data to 'papers_data.json' in the 'data' directory.
-    
+
     Raises:
         ImportError: If the 'feedparser' module is not properly installed.
         RuntimeError: If no papers are found in the feed.
         OSError: If there is an error with directory/file operations.
         feedparser.FeedParserError: If there is an error parsing the feed.
-        
+
     Prints:
         Success message with paper count or error message if exception occurs.
     """
@@ -41,7 +40,7 @@ def fetch_papers():
 
         base_url = "http://export.arxiv.org/api/query?"
         query = quote(
-            '(cat:q-bio.GN OR cat:q-bio.QM) AND '
+            "(cat:q-bio.GN OR cat:q-bio.QM) AND "
             '(ti:"spatial transcriptomics" OR '
             'abs:"spatial genomics")'
         )
@@ -60,15 +59,13 @@ def fetch_papers():
         papers = []
         for entry in feed.entries:
             paper = {
-                "title": entry.title.replace(
-                    "\n",
-                    " "),
-                "authors": [
-                    author.name for author in entry.authors],
+                "title": entry.title.replace("\n", " "),
+                "authors": [author.name for author in entry.authors],
                 "published": entry.published,
                 "link": entry.id,
                 "pdf_link": next(
-                    link.href for link in entry.links if link.type == "application/pdf"),
+                    link.href for link in entry.links if link.type == "application/pdf"
+                ),
             }
             papers.append(paper)
 
