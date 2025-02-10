@@ -12,7 +12,7 @@ def fetch_papers():
         
         feed = feedparser.parse(base_url + params)
         if not feed.entries:
-            raise Exception("No papers found in feed")
+            raise RuntimeError("No papers found in feed")
 
         papers = []
         for entry in feed.entries:
