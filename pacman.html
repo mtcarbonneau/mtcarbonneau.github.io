@@ -3,25 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Play Pac-Man - My GitHub Pages Website</title>
+    <title>Pac-Man Game</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="pacman.css">
+    <style>
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 2rem 0;
+            flex: 1;
+        }
+        canvas {
+            border: 2px solid var(--primary-color);
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        .game-instructions {
+            text-align: center;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="title">Play Pac-Man</h1>
-        <nav class="nav-menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="game-container">
-            <canvas id="pacman" width="600" height="400"></canvas>
-            <p>Use arrow keys to move Pac-Man. Press Space to start/restart.</p>
+    <main>
+        <div class="container">
+            <h1 class="title">Pac-Man Game</h1>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="game-container">
+                <canvas id="pacman" width="600" height="400"></canvas>
+                <div class="game-instructions">
+                    <h2>How to Play</h2>
+                    <p>Use arrow keys to move Pac-Man</p>
+                    <p>Collect all dots while avoiding ghosts</p>
+                    <p>Press Space to restart game</p>
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Madeleine Carbonneau. All rights reserved.</p>
+    </footer>
     <script src="pacman.js"></script>
 </body>
 </html>
