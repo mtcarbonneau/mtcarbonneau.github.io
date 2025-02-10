@@ -1,0 +1,403 @@
+[
+  {
+    "title": "MEATRD: Multimodal Anomalous Tissue Region Detection Enhanced with   Spatial Transcriptomics",
+    "authors": [
+      "Kaichen Xu",
+      "Qilong Wu",
+      "Yan Lu",
+      "Yinan Zheng",
+      "Wenlin Li",
+      "Xingjie Tang",
+      "Jun Wang",
+      "Xiaobo Sun"
+    ],
+    "published": "2024-12-14T03:09:04Z",
+    "link": "http://arxiv.org/abs/2412.10659v1",
+    "pdf_link": "http://arxiv.org/pdf/2412.10659v1"
+  },
+  {
+    "title": "Deep Learning in Single-Cell and Spatial Transcriptomics Data Analysis:   Advances and Challenges from a Data Science Perspective",
+    "authors": [
+      "Shuang Ge",
+      "Shuqing Sun",
+      "Huan Xu",
+      "Qiang Cheng",
+      "Zhixiang Ren"
+    ],
+    "published": "2024-12-04T14:07:11Z",
+    "link": "http://arxiv.org/abs/2412.03614v2",
+    "pdf_link": "http://arxiv.org/pdf/2412.03614v2"
+  },
+  {
+    "title": "SUICA: Learning Super-high Dimensional Sparse Implicit Neural   Representations for Spatial Transcriptomics",
+    "authors": [
+      "Qingtian Zhu",
+      "Yumin Zheng",
+      "Yuling Sang",
+      "Yifan Zhan",
+      "Ziyan Zhu",
+      "Jun Ding",
+      "Yinqiang Zheng"
+    ],
+    "published": "2024-12-02T05:02:18Z",
+    "link": "http://arxiv.org/abs/2412.01124v1",
+    "pdf_link": "http://arxiv.org/pdf/2412.01124v1"
+  },
+  {
+    "title": "Towards Unified Molecule-Enhanced Pathology Image Representation   Learning via Integrating Spatial Transcriptomics",
+    "authors": [
+      "Minghao Han",
+      "Dingkang Yang",
+      "Jiabei Cheng",
+      "Xukun Zhang",
+      "Linhao Qu",
+      "Zizhi Chen",
+      "Lihua Zhang"
+    ],
+    "published": "2024-12-01T03:09:52Z",
+    "link": "http://arxiv.org/abs/2412.00651v1",
+    "pdf_link": "http://arxiv.org/pdf/2412.00651v1"
+  },
+  {
+    "title": "ST-Align: A Multimodal Foundation Model for Image-Gene Alignment in   Spatial Transcriptomics",
+    "authors": [
+      "Yuxiang Lin",
+      "Ling Luo",
+      "Ying Chen",
+      "Xushi Zhang",
+      "Zihui Wang",
+      "Wenxian Yang",
+      "Mengsha Tong",
+      "Rongshan Yu"
+    ],
+    "published": "2024-11-25T09:15:07Z",
+    "link": "http://arxiv.org/abs/2411.16793v1",
+    "pdf_link": "http://arxiv.org/pdf/2411.16793v1"
+  },
+  {
+    "title": "GATES: Graph Attention Network with Global Expression Fusion for   Deciphering Spatial Transcriptome Architectures",
+    "authors": [
+      "Xiongtao Xiao",
+      "Xiaofeng Chen",
+      "Feiyan Jiang",
+      "Songming Zhang",
+      "Wenming Cao",
+      "Cheng Tan",
+      "Zhangyang Gao",
+      "Zhongshan Li"
+    ],
+    "published": "2024-10-26T12:18:23Z",
+    "link": "http://arxiv.org/abs/2410.20159v1",
+    "pdf_link": "http://arxiv.org/pdf/2410.20159v1"
+  },
+  {
+    "title": "QueST: Querying Functional and Structural Niches on Spatial   Transcriptomics Data via Contrastive Subgraph Embedding",
+    "authors": [
+      "Mo Chen",
+      "Minsheng Hao",
+      "Xuegong Zhang",
+      "Lei Wei"
+    ],
+    "published": "2024-10-14T16:01:27Z",
+    "link": "http://arxiv.org/abs/2410.10652v1",
+    "pdf_link": "http://arxiv.org/pdf/2410.10652v1"
+  },
+  {
+    "title": "Hyperedge Representations with Hypergraph Wavelets: Applications to   Spatial Transcriptomics",
+    "authors": [
+      "Xingzhi Sun",
+      "Charles Xu",
+      "João F. Rocha",
+      "Chen Liu",
+      "Benjamin Hollander-Bodie",
+      "Laney Goldman",
+      "Marcello DiStasio",
+      "Michael Perlmutter",
+      "Smita Krishnaswamy"
+    ],
+    "published": "2024-09-14T15:33:37Z",
+    "link": "http://arxiv.org/abs/2409.09469v1",
+    "pdf_link": "http://arxiv.org/pdf/2409.09469v1"
+  },
+  {
+    "title": "stEnTrans: Transformer-based deep learning for spatial transcriptomics   enhancement",
+    "authors": [
+      "Shuailin Xue",
+      "Fangfang Zhu",
+      "Changmiao Wang",
+      "Wenwen Min"
+    ],
+    "published": "2024-07-11T06:50:34Z",
+    "link": "http://arxiv.org/abs/2407.08224v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.08224v1"
+  },
+  {
+    "title": "QuST-LLM: Integrating Large Language Models for Comprehensive Spatial   Transcriptomics Analysis",
+    "authors": [
+      "Chao Hui Huang"
+    ],
+    "published": "2024-06-20T13:37:10Z",
+    "link": "http://arxiv.org/abs/2406.14307v2",
+    "pdf_link": "http://arxiv.org/pdf/2406.14307v2"
+  },
+  {
+    "title": "STimage-1K4M: A histopathology image-gene expression dataset for spatial   transcriptomics",
+    "authors": [
+      "Jiawen Chen",
+      "Muqing Zhou",
+      "Wenrong Wu",
+      "Jinwei Zhang",
+      "Yun Li",
+      "Didong Li"
+    ],
+    "published": "2024-06-10T15:48:07Z",
+    "link": "http://arxiv.org/abs/2406.06393v2",
+    "pdf_link": "http://arxiv.org/pdf/2406.06393v2"
+  },
+  {
+    "title": "QuST: QuPath Extension for Integrative Whole Slide Image and Spatial   Transcriptomics Analysis",
+    "authors": [
+      "Chao-Hui Huang",
+      "Sara Lichtarge",
+      "Diane Fernandez"
+    ],
+    "published": "2024-05-31T00:08:09Z",
+    "link": "http://arxiv.org/abs/2406.01613v3",
+    "pdf_link": "http://arxiv.org/pdf/2406.01613v3"
+  },
+  {
+    "title": "Cross-modal Diffusion Modelling for Super-resolved Spatial   Transcriptomics",
+    "authors": [
+      "Xiaofei Wang",
+      "Xingxu Huang",
+      "Stephen J. Price",
+      "Chao Li"
+    ],
+    "published": "2024-04-19T16:01:00Z",
+    "link": "http://arxiv.org/abs/2404.12973v2",
+    "pdf_link": "http://arxiv.org/pdf/2404.12973v2"
+  },
+  {
+    "title": "stMCDI: Masked Conditional Diffusion Model with Graph Neural Network for   Spatial Transcriptomics Data Imputation",
+    "authors": [
+      "Xiaoyu Li",
+      "Wenwen Min",
+      "Shunfang Wang",
+      "Changmiao Wang",
+      "Taosheng Xu"
+    ],
+    "published": "2024-03-16T09:06:38Z",
+    "link": "http://arxiv.org/abs/2403.10863v1",
+    "pdf_link": "http://arxiv.org/pdf/2403.10863v1"
+  },
+  {
+    "title": "A selective review of recent developments in spatially variable gene   detection for spatial transcriptomics",
+    "authors": [
+      "Sikta Das Adhikari",
+      "Jiaxin Yang",
+      "Jianrong Wang",
+      "Yuehua Cui"
+    ],
+    "published": "2023-11-23T04:20:14Z",
+    "link": "http://arxiv.org/abs/2311.13801v1",
+    "pdf_link": "http://arxiv.org/pdf/2311.13801v1"
+  },
+  {
+    "title": "Latent Space Inference For Spatial Transcriptomics",
+    "authors": [
+      "J. Ding",
+      "S. N. Zaman",
+      "P. Y. Chen",
+      "D. Wang"
+    ],
+    "published": "2023-11-01T06:50:00Z",
+    "link": "http://arxiv.org/abs/2311.00330v1",
+    "pdf_link": "http://arxiv.org/pdf/2311.00330v1"
+  },
+  {
+    "title": "Spatial Pathomics Toolkit for Quantitative Analysis of Podocyte Nuclei   with Histology and Spatial Transcriptomics Data in Renal Pathology",
+    "authors": [
+      "Jiayuan Chen",
+      "Yu Wang",
+      "Ruining Deng",
+      "Quan Liu",
+      "Can Cui",
+      "Tianyuan Yao",
+      "Yilin Liu",
+      "Jianyong Zhong",
+      "Agnes B. Fogo",
+      "Haichun Yang",
+      "Shilin Zhao",
+      "Yuankai Huo"
+    ],
+    "published": "2023-08-10T17:16:52Z",
+    "link": "http://arxiv.org/abs/2308.06288v1",
+    "pdf_link": "http://arxiv.org/pdf/2308.06288v1"
+  },
+  {
+    "title": "Machine Learning for Uncovering Biological Insights in Spatial   Transcriptomics Data",
+    "authors": [
+      "Alex J. Lee",
+      "Robert Cahill",
+      "Reza Abbasi-Asl"
+    ],
+    "published": "2023-03-29T14:22:08Z",
+    "link": "http://arxiv.org/abs/2303.16725v1",
+    "pdf_link": "http://arxiv.org/pdf/2303.16725v1"
+  },
+  {
+    "title": "STGIC: a graph and image convolution-based method for spatial   transcriptomic clustering",
+    "authors": [
+      "Chen Zhang",
+      "Junhui Gao",
+      "Lingxin Kong",
+      "Guangshuo cao",
+      "Xiangyu Guo",
+      "Wei Liu"
+    ],
+    "published": "2023-03-19T13:42:38Z",
+    "link": "http://arxiv.org/abs/2303.10657v2",
+    "pdf_link": "http://arxiv.org/pdf/2303.10657v2"
+  },
+  {
+    "title": "Breast Cancer Histopathology Image based Gene Expression Prediction   using Spatial Transcriptomics data and Deep Learning",
+    "authors": [
+      "Md Mamunur Rahaman",
+      "Ewan K. A. Millar",
+      "Erik Meijering"
+    ],
+    "published": "2023-03-17T14:03:40Z",
+    "link": "http://arxiv.org/abs/2303.09987v1",
+    "pdf_link": "http://arxiv.org/pdf/2303.09987v1"
+  },
+  {
+    "title": "Single Cells Are Spatial Tokens: Transformers for Spatial Transcriptomic   Data Imputation",
+    "authors": [
+      "Hongzhi Wen",
+      "Wenzhuo Tang",
+      "Wei Jin",
+      "Jiayuan Ding",
+      "Renming Liu",
+      "Xinnan Dai",
+      "Feng Shi",
+      "Lulu Shang",
+      "Hui Liu",
+      "Yuying Xie"
+    ],
+    "published": "2023-02-06T01:44:13Z",
+    "link": "http://arxiv.org/abs/2302.03038v2",
+    "pdf_link": "http://arxiv.org/pdf/2302.03038v2"
+  },
+  {
+    "title": "Graph Neural Operators for Classification of Spatial Transcriptomics   Data",
+    "authors": [
+      "Junaid Ahmed",
+      "Alhassan S. Yasin"
+    ],
+    "published": "2023-02-01T18:32:06Z",
+    "link": "http://arxiv.org/abs/2302.00658v1",
+    "pdf_link": "http://arxiv.org/pdf/2302.00658v1"
+  },
+  {
+    "title": "SpaceTx: A Roadmap for Benchmarking Spatial Transcriptomics Exploration   of the Brain",
+    "authors": [
+      "Brian Long",
+      "Jeremy Miller",
+      "The SpaceTx Consortium"
+    ],
+    "published": "2023-01-20T06:20:45Z",
+    "link": "http://arxiv.org/abs/2301.08436v1",
+    "pdf_link": "http://arxiv.org/pdf/2301.08436v1"
+  },
+  {
+    "title": "Statistical Power Analysis for Designing Bulk, Single-Cell, and Spatial   Transcriptomics Experiments: Review, Tutorial, and Perspectives",
+    "authors": [
+      "Hyeongseon Jeon",
+      "Juan Xie",
+      "Yeseul Jeon",
+      "Kyeong Joo Jung",
+      "Arkobrato Gupta",
+      "Won Chang",
+      "Dongjun Chung"
+    ],
+    "published": "2023-01-07T18:42:28Z",
+    "link": "http://arxiv.org/abs/2301.02918v1",
+    "pdf_link": "http://arxiv.org/pdf/2301.02918v1"
+  },
+  {
+    "title": "Multiscale topology classifies and quantifies cell types in subcellular   spatial transcriptomics",
+    "authors": [
+      "Katherine Benjamin",
+      "Aneesha Bhandari",
+      "Zhouchun Shang",
+      "Yanan Xing",
+      "Yanru An",
+      "Nannan Zhang",
+      "Yong Hou",
+      "Ulrike Tillmann",
+      "Katherine R. Bull",
+      "Heather A. Harrington"
+    ],
+    "published": "2022-12-13T11:36:25Z",
+    "link": "http://arxiv.org/abs/2212.06505v1",
+    "pdf_link": "http://arxiv.org/pdf/2212.06505v1"
+  },
+  {
+    "title": "Spatial Transcriptomics Dimensionality Reduction using Wavelet Bases",
+    "authors": [
+      "Zhuoyan Xu",
+      "Kris Sankaran"
+    ],
+    "published": "2022-05-19T04:13:51Z",
+    "link": "http://arxiv.org/abs/2205.11243v1",
+    "pdf_link": "http://arxiv.org/pdf/2205.11243v1"
+  },
+  {
+    "title": "Emerging Artificial Intelligence Applications in Spatial Transcriptomics   Analysis",
+    "authors": [
+      "Yijun Li",
+      "Stefan Stanojevic",
+      "Lana X. Garmire"
+    ],
+    "published": "2022-03-18T00:21:17Z",
+    "link": "http://arxiv.org/abs/2203.09664v1",
+    "pdf_link": "http://arxiv.org/pdf/2203.09664v1"
+  },
+  {
+    "title": "Analysis and visualization of spatial transcriptomic data",
+    "authors": [
+      "Boxiang Liu",
+      "Yanjun Li",
+      "Liang Zhang"
+    ],
+    "published": "2021-10-15T00:48:55Z",
+    "link": "http://arxiv.org/abs/2110.07787v3",
+    "pdf_link": "http://arxiv.org/pdf/2110.07787v3"
+  },
+  {
+    "title": "A Bayesian Modified Ising Model for Identifying Spatially Variable Genes   from Spatial Transcriptomics Data",
+    "authors": [
+      "Xi Jiang",
+      "Qiwei Li",
+      "Guanghua Xiao"
+    ],
+    "published": "2021-04-28T18:27:05Z",
+    "link": "http://arxiv.org/abs/2104.13957v3",
+    "pdf_link": "http://arxiv.org/pdf/2104.13957v3"
+  },
+  {
+    "title": "A joint model of unpaired data from scRNA-seq and spatial   transcriptomics for imputing missing gene expression measurements",
+    "authors": [
+      "Romain Lopez",
+      "Achille Nazaret",
+      "Maxime Langevin",
+      "Jules Samaran",
+      "Jeffrey Regier",
+      "Michael I. Jordan",
+      "Nir Yosef"
+    ],
+    "published": "2019-05-06T21:24:17Z",
+    "link": "http://arxiv.org/abs/1905.02269v1",
+    "pdf_link": "http://arxiv.org/pdf/1905.02269v1"
+  }
+]
