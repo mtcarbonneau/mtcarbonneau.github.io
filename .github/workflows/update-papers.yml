@@ -2,35 +2,34 @@ name: Update Papers Data
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight UTC
-  workflow_dispatch:      # Allows manual trigger
-
-permissions:
-  contents: write
+    - cron: '0 0 * * *'  # This runs at midnight UTC every day
+  workflow_dispatch:      # Allows manual triggering
 
 jobs:
   update-papers:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    # Needed for pushing changes
+
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-          
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          
-      - name: Update papers data
-        run: |
-          python scripts/fetch_papers.py
-          
-      - name: Commit and push if changed
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/papers_data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update papers data [skip ci]" && git push)
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0   # Fetch all history for proper updates
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install feedparser requests
+
+    - name: Run update script
+      run: python scripts/update_papers.py
+
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add data/papers_data.json
+        git diff --staged --quiet || (git commit -m "Auto-update papers data [skip ci]" && git push)
