@@ -1,0 +1,7 @@
+# Allow CORS for arXiv API
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+# Proper MIME type for JSON
+AddType application/json .json

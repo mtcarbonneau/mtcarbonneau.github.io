@@ -205,3 +205,112 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+/* Remove search container styles */
+.search-container {
+    display: none;
+}
+
+.papers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.papers-table th,
+.papers-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.papers-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.papers-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.papers-table td .button {
+    padding: 4px 8px;
+    margin: 0 4px;
+    font-size: 0.9em;
+    display: inline-block;
+}
+
+.papers-table td {
+    vertical-align: middle;
+    line-height: 1.4;
+}
+
+/* Remove tab-related styles */
+.tabs, .tab-button, .tab-content {
+    display: none;
+}
+
+/* Adjust results container margin */
+.results-container {
+    margin-top: 30px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.page-button {
+    padding: 5px 15px;
+    min-width: 100px;
+}
+
+#pageInfo {
+    font-size: 1.1em;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.contact-info {
+    margin-bottom: 3rem;
+}
+
+.contact-details {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact-details p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.contact-details a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+    color: var(--primary-color);
+}
+
+.map-container {
+    margin-top: 2rem;
+}
+
+.map-container iframe {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

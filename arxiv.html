@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arXiv Query Project - Maddy Carbonneau</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">arXiv Query Project</h1>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="project-detail">
+                <div class="project-content">
+                    <h2>Search Tool</h2>
+                    <p>A tool for searching and analyzing scientific papers from arXiv, 
+                       displaying the latest research in spatial transcriptomics.</p>
+
+                    <div class="results-container">
+                        <table id="resultsTable" class="papers-table">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Authors</th>
+                                    <th>Published</th>
+                                    <th>Links</th>
+                                </tr>
+                            </thead>
+                            <tbody id="resultsBody">
+                                <tr><td colspan="4">Loading papers...</td></tr>
+                            </tbody>
+                        </table>
+                        <div class="pagination">
+                            <button onclick="changePage(-1)" class="button page-button">&lt; Previous</button>
+                            <span id="pageInfo">Page 1</span>
+                            <button onclick="changePage(1)" class="button page-button">Next &gt;</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Madeleine Carbonneau. All rights reserved.</p>
+    </footer>
+    <script src="arxiv.js"></script>
+    <script>
+        // Load initial results when page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('searchQuery').value = 'genetic regulatory networks';
+            searchArxiv();
+        });
+    </script>
+</body>
+</html>
