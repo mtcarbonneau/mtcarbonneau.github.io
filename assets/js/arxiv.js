@@ -48,6 +48,36 @@ async function searchArxiv() {
     }
 }
 
+async function loadPapers() {
+    const tableBody = document.getElementById('resultsBody');
+    tableBody.innerHTML = '<tr><td colspan="4">Loading papers...</td></tr>';
+
+    try {
+        const response = await fetch('../../data/papers_data.json');
+        const data = await response.json();
+        
+        if (!data.length) {
+            tableBody.innerHTML = '<tr><td colspan="4">No papers found</td></tr>';
+            return;
+        }
+
+        // Store and display papers
+        allPapers = data.map(paper => ({
+            title: paper.title,
+            authors: paper.authors.join(', '),
+            published: new Date(paper.published).toLocaleDateString(),
+            link: paper.link,
+            pdf_link: paper.pdf_link
+        }));
+
+        displayPage(1);
+        
+    } catch (error) {
+        console.error('Error:', error);
+        tableBody.innerHTML = `<tr><td colspan="4">Error loading papers: ${error.message}</td></tr>`;
+    }
+}
+
 function displayPage(pageNum) {
     const tableBody = document.getElementById('resultsBody');
     const startIndex = (pageNum - 1) * resultsPerPage;
