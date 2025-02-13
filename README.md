@@ -1,20 +1,38 @@
 # Madeleine's Coding Website 
 
 A web application that displays projects for BST 236: Computing I.
+ 
+Repository that deploys website can be found at: https://github.com/mtcarbonneau/mtcarbonneau.github.io
+
+Website can be found at https://mtcarbonneau.github.io/index.html
 
 ## Project Structure
 
 ```
-mcarbonneau_website/
+homework-1-mtcarbonneau/
 ├── assets/
 │   ├── css/
+|   |   ├── pacman.js
 │   │   └── styles.css
+|   ├── images/
+│   │   └── madeleine_profile.png
 │   └── js/
-│       └── arxiv.js
+│       ├── arxiv.js
+│       ├── game.js
+│       ├── main.js
+│       └── navigation.js
+├── data/
+│   └── papers.json
+├── scripts/
+│   └── fetch_papers.py
 ├── pages/
+|   ├── about.html
 │   ├── arxiv.html
 │   ├── projects.html
 │   └── contact.html
+├── server.py
+├── AssignmentREADME.md
+├── requirements.txt
 └── index.html
 ```
 
@@ -80,41 +98,93 @@ The website also includes a Pac-Man game for entertainment. To play the game:
 This project was developed with the assistance of various AI tools. Here's how each component was created:
 
 ### Tools Used
-- GitHub Copilot
-- GitHub Editor
-- ChatGPT
-- Copy Coder
-- Anthropic Claude
+- GitHub Copilot for code completion and pair programming
+- GitHub Editor (Claude 3.5/GPT 4) for complex problem-solving
+- ChatGPT for debugging and optimization suggestions
 
 ### Project Development Process
 
 1. Website Setup (Problem 1)
-   - Used GitHub Copilot for initial HTML/CSS structure
-   - Prompt example: "Create a responsive navigation menu with hover effects"
-   - Iteratively refined design using Copy Coder suggestions: Implement local versions for faster testing
-   - Adjusted prompts based on visual feedback
-   - Using "Make __ prettier" to improve visual appearance
+   - Started with basic HTML structure via Copilot
+   - Built progressively with focused prompts:
+     ```
+     1. "Create responsive navbar with these links: Home, Projects, Contact"
+     2. "Add hover effects and mobile menu toggle"
+     3. "Style main content area with flexbox layout"
+     ```
+   - Validated each component across browsers
+   - Used AI suggestions for accessibility improvements
+   - Key insight: Build foundational elements first
 
 2. Pac-Man Game (Problem 2)
-   - Started with basic game logic prompts to GitHub Copilot
-   - Example prompt: "Create Pac-Man movement controls with arrow keys"
-   - Refined collision detection with ChatGPT assistance
-   - Iteratively improved game mechanics based on testing
-   - Referencing files is helpful to avoid creating unnecessary new files
+   - Implemented core mechanics step by step:
+     ```
+     1. "Initialize game board with walls and dots"
+     2. "Add Pac-Man sprite with basic movement"
+     3. "Create ghost pathfinding algorithm"
+     4. "Implement scoring and win conditions"
+     ```
+   - Used ChatGPT for performance optimization
+   - Copilot helped with collision detection logic
+   - Key insight: Break complex features into smaller tasks
 
 3. arXiv Integration (Problem 3)
-   - Used Claude for API integration guidance
-   - Example prompt: "How to fetch papers from arXiv API and display in table"
-   - GitHub Copilot for JavaScript table pagination
-   - ChatGPT for GitHub Actions automation setup
-   - Refined error handling based on AI suggestions
+   - Systematic API implementation:
+     ```
+     1. "Setup arXiv API connection with error handling"
+     2. "Create paper display table with sorting"
+     3. "Add pagination and search filters"
+     ```
+   - Used Claude for API best practices
+   - Automated testing setup with AI guidance
+   - Key insight: Always validate API responses
 
-### Prompt Engineering Insights
-- Start with broad requirements, then narrow down
-- Include specific technical details in follow-up prompts
-- Use AI suggestions as starting points, not final solutions
-- Iterate based on testing and user feedback
-- Combine multiple AI tools for different aspects of development
+### Effective AI Prompting Strategies
+
+1. Clear Context Setting
+   - Share relevant code snippets
+   - Specify environment details
+   - Example: "Using Node.js 16, implement error handling for this API call"
+
+2. Iterative Development
+   - Start simple, add complexity
+   - Test between iterations
+   - Example sequence:
+     ```
+     Basic: "Create paper display function"
+     Refine: "Add sorting by date"
+     Optimize: "Cache results for performance"
+     ```
+
+3. Debugging Approach
+   - Provide complete error messages
+   - Include surrounding code context
+   - Specify expected behavior
+
+4. Best Practices
+   - Review AI code thoroughly
+   - Test edge cases
+   - Document AI-assisted implementations
+   - Regular security reviews
+
+### Tool Selection Guide
+
+- GitHub Copilot: Use for
+  - Code completion
+  - Standard patterns
+  - Quick solutions
+
+- Claude/GPT: Best for
+  - Architecture decisions
+  - Complex logic
+  - Optimization advice
+
+### Lessons Learned
+- AI excels at boilerplate code
+- Human review crucial
+- Combine tools strategically
+- Keep prompt history
+- Test thoroughly
 
 ## Development
 
