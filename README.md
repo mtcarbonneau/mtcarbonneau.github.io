@@ -75,6 +75,47 @@ The website also includes a Pac-Man game for entertainment. To play the game:
 2. Click on the Pac-Man game link
 3. Enjoy playing Pac-Man directly in your browser
 
+## AI Development Case Study
+
+This project was developed with the assistance of various AI tools. Here's how each component was created:
+
+### Tools Used
+- GitHub Copilot
+- GitHub Editor
+- ChatGPT
+- Copy Coder
+- Anthropic Claude
+
+### Project Development Process
+
+1. Website Setup (Problem 1)
+   - Used GitHub Copilot for initial HTML/CSS structure
+   - Prompt example: "Create a responsive navigation menu with hover effects"
+   - Iteratively refined design using Copy Coder suggestions: Implement local versions for faster testing
+   - Adjusted prompts based on visual feedback
+   - Using "Make __ prettier" to improve visual appearance
+
+2. Pac-Man Game (Problem 2)
+   - Started with basic game logic prompts to GitHub Copilot
+   - Example prompt: "Create Pac-Man movement controls with arrow keys"
+   - Refined collision detection with ChatGPT assistance
+   - Iteratively improved game mechanics based on testing
+   - Referencing files is helpful to avoid creating unnecessary new files
+
+3. arXiv Integration (Problem 3)
+   - Used Claude for API integration guidance
+   - Example prompt: "How to fetch papers from arXiv API and display in table"
+   - GitHub Copilot for JavaScript table pagination
+   - ChatGPT for GitHub Actions automation setup
+   - Refined error handling based on AI suggestions
+
+### Prompt Engineering Insights
+- Start with broad requirements, then narrow down
+- Include specific technical details in follow-up prompts
+- Use AI suggestions as starting points, not final solutions
+- Iterate based on testing and user feedback
+- Combine multiple AI tools for different aspects of development
+
 ## Development
 
 To modify the website:
