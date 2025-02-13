@@ -1,6 +1,6 @@
-# arXiv Spatial Transcriptomics Explorer
+# Madeleine's Coding Website 
 
-A web application that displays and tracks the latest research papers in spatial transcriptomics from arXiv.
+A web application that displays projects for BST 236: Computing I.
 
 ## Project Structure
 
