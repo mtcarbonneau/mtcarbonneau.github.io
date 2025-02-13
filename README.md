@@ -9,7 +9,7 @@ Website can be found at https://mtcarbonneau.github.io/index.html
 ## Project Structure
 
 ```
-homework-1-mtcarbonneau/
+mcarbonneau_website/
 ├── assets/
 │   ├── css/
 |   |   ├── pacman.js
