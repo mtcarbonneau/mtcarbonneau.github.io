@@ -2,7 +2,7 @@ name: Update Papers Data
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # This runs at midnight UTC every day
+    - cron: '0 5 * * *'   # This runs at midnight EST every day
   workflow_dispatch:      # Allows manual triggering
 
 jobs:
