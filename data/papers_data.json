@@ -1,5 +1,16 @@
 [
   {
+    "title": "Spatial Transcriptomics Iterative Hierarchical Clustering (stIHC): A   Novel Method for Identifying Spatial Gene Co-Expression Modules",
+    "authors": [
+      "Catherine Higgins",
+      "Jingyi Jessica Li",
+      "Michelle Carey"
+    ],
+    "published": "2025-02-13T18:31:24Z",
+    "link": "http://arxiv.org/abs/2502.09574v1",
+    "pdf_link": "http://arxiv.org/pdf/2502.09574v1"
+  },
+  {
     "title": "MEATRD: Multimodal Anomalous Tissue Region Detection Enhanced with   Spatial Transcriptomics",
     "authors": [
       "Kaichen Xu",
@@ -384,20 +395,5 @@
     "published": "2021-04-28T18:27:05Z",
     "link": "http://arxiv.org/abs/2104.13957v3",
     "pdf_link": "http://arxiv.org/pdf/2104.13957v3"
-  },
-  {
-    "title": "A joint model of unpaired data from scRNA-seq and spatial   transcriptomics for imputing missing gene expression measurements",
-    "authors": [
-      "Romain Lopez",
-      "Achille Nazaret",
-      "Maxime Langevin",
-      "Jules Samaran",
-      "Jeffrey Regier",
-      "Michael I. Jordan",
-      "Nir Yosef"
-    ],
-    "published": "2019-05-06T21:24:17Z",
-    "link": "http://arxiv.org/abs/1905.02269v1",
-    "pdf_link": "http://arxiv.org/pdf/1905.02269v1"
   }
 ]
