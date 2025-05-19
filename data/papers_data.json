@@ -1,5 +1,30 @@
 [
   {
+    "title": "MOSAIK: Multi-Origin Spatial Transcriptomics Analysis and Integration   Kit",
+    "authors": [
+      "Anthony Baptista",
+      "Rosamond Nuamah",
+      "Ciro Chiappini",
+      "Anita Grigoriadis"
+    ],
+    "published": "2025-05-16T15:46:55Z",
+    "link": "http://arxiv.org/abs/2505.11384v1",
+    "pdf_link": "http://arxiv.org/pdf/2505.11384v1"
+  },
+  {
+    "title": "Adaptive Spatial Transcriptomics Interpolation via Cross-modal   Cross-slice Modeling",
+    "authors": [
+      "NingFeng Que",
+      "Xiaofei Wang",
+      "Jingjing Chen",
+      "Yixuan Jiang",
+      "Chao Li"
+    ],
+    "published": "2025-05-15T22:14:39Z",
+    "link": "http://arxiv.org/abs/2505.10729v1",
+    "pdf_link": "http://arxiv.org/pdf/2505.10729v1"
+  },
+  {
     "title": "TransST: Transfer Learning Embedded Spatial Factor Modeling of Spatial   Transcriptomics Data",
     "authors": [
       "Shuo Shuo Liu",
@@ -376,27 +401,5 @@
     "published": "2022-05-19T04:13:51Z",
     "link": "http://arxiv.org/abs/2205.11243v1",
     "pdf_link": "http://arxiv.org/pdf/2205.11243v1"
-  },
-  {
-    "title": "Emerging Artificial Intelligence Applications in Spatial Transcriptomics   Analysis",
-    "authors": [
-      "Yijun Li",
-      "Stefan Stanojevic",
-      "Lana X. Garmire"
-    ],
-    "published": "2022-03-18T00:21:17Z",
-    "link": "http://arxiv.org/abs/2203.09664v1",
-    "pdf_link": "http://arxiv.org/pdf/2203.09664v1"
-  },
-  {
-    "title": "Analysis and visualization of spatial transcriptomic data",
-    "authors": [
-      "Boxiang Liu",
-      "Yanjun Li",
-      "Liang Zhang"
-    ],
-    "published": "2021-10-15T00:48:55Z",
-    "link": "http://arxiv.org/abs/2110.07787v3",
-    "pdf_link": "http://arxiv.org/pdf/2110.07787v3"
   }
 ]
