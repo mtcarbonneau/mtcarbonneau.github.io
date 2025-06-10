@@ -1,5 +1,18 @@
 [
   {
+    "title": "Scalable Generation of Spatial Transcriptomics from Histology Images via   Whole-Slide Flow Matching",
+    "authors": [
+      "Tinglin Huang",
+      "Tianyu Liu",
+      "Mehrtash Babadi",
+      "Wengong Jin",
+      "Rex Ying"
+    ],
+    "published": "2025-05-25T01:29:19Z",
+    "link": "http://arxiv.org/abs/2506.05361v1",
+    "pdf_link": "http://arxiv.org/pdf/2506.05361v1"
+  },
+  {
     "title": "MOSAIK: Multi-Origin Spatial Transcriptomics Analysis and Integration   Kit",
     "authors": [
       "Anthony Baptista",
@@ -391,15 +404,5 @@
     "published": "2022-12-13T11:36:25Z",
     "link": "http://arxiv.org/abs/2212.06505v1",
     "pdf_link": "http://arxiv.org/pdf/2212.06505v1"
-  },
-  {
-    "title": "Spatial Transcriptomics Dimensionality Reduction using Wavelet Bases",
-    "authors": [
-      "Zhuoyan Xu",
-      "Kris Sankaran"
-    ],
-    "published": "2022-05-19T04:13:51Z",
-    "link": "http://arxiv.org/abs/2205.11243v1",
-    "pdf_link": "http://arxiv.org/pdf/2205.11243v1"
   }
 ]
