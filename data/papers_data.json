@@ -1,5 +1,19 @@
 [
   {
+    "title": "HEIST: A Graph Foundation Model for Spatial Transcriptomics and   Proteomics Data",
+    "authors": [
+      "Hiren Madhu",
+      "João Felipe Rocha",
+      "Tinglin Huang",
+      "Siddharth Viswanath",
+      "Smita Krishnaswamy",
+      "Rex Ying"
+    ],
+    "published": "2025-06-11T12:29:01Z",
+    "link": "http://arxiv.org/abs/2506.11152v1",
+    "pdf_link": "http://arxiv.org/pdf/2506.11152v1"
+  },
+  {
     "title": "Scalable Generation of Spatial Transcriptomics from Histology Images via   Whole-Slide Flow Matching",
     "authors": [
       "Tinglin Huang",
@@ -386,23 +400,5 @@
     "published": "2023-01-07T18:42:28Z",
     "link": "http://arxiv.org/abs/2301.02918v1",
     "pdf_link": "http://arxiv.org/pdf/2301.02918v1"
-  },
-  {
-    "title": "Multiscale topology classifies and quantifies cell types in subcellular   spatial transcriptomics",
-    "authors": [
-      "Katherine Benjamin",
-      "Aneesha Bhandari",
-      "Zhouchun Shang",
-      "Yanan Xing",
-      "Yanru An",
-      "Nannan Zhang",
-      "Yong Hou",
-      "Ulrike Tillmann",
-      "Katherine R. Bull",
-      "Heather A. Harrington"
-    ],
-    "published": "2022-12-13T11:36:25Z",
-    "link": "http://arxiv.org/abs/2212.06505v1",
-    "pdf_link": "http://arxiv.org/pdf/2212.06505v1"
   }
 ]
