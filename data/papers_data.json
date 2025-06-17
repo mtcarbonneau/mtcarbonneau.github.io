@@ -1,5 +1,20 @@
 [
   {
+    "title": "SemanticST: Spatially Informed Semantic Graph Learning for Clustering,   Integration, and Scalable Analysis of Spatial Transcriptomics",
+    "authors": [
+      "Roxana Zahedi",
+      "Ahmadreza Argha",
+      "Nona Farbehi",
+      "Ivan Bakhshayeshi",
+      "Youqiong Ye",
+      "Nigel H. Lovell",
+      "Hamid Alinejad-Rokny"
+    ],
+    "published": "2025-06-13T06:30:48Z",
+    "link": "http://arxiv.org/abs/2506.11491v2",
+    "pdf_link": "http://arxiv.org/pdf/2506.11491v2"
+  },
+  {
     "title": "HEIST: A Graph Foundation Model for Spatial Transcriptomics and   Proteomics Data",
     "authors": [
       "Hiren Madhu",
@@ -385,20 +400,5 @@
     "published": "2023-01-20T06:20:45Z",
     "link": "http://arxiv.org/abs/2301.08436v1",
     "pdf_link": "http://arxiv.org/pdf/2301.08436v1"
-  },
-  {
-    "title": "Statistical Power Analysis for Designing Bulk, Single-Cell, and Spatial   Transcriptomics Experiments: Review, Tutorial, and Perspectives",
-    "authors": [
-      "Hyeongseon Jeon",
-      "Juan Xie",
-      "Yeseul Jeon",
-      "Kyeong Joo Jung",
-      "Arkobrato Gupta",
-      "Won Chang",
-      "Dongjun Chung"
-    ],
-    "published": "2023-01-07T18:42:28Z",
-    "link": "http://arxiv.org/abs/2301.02918v1",
-    "pdf_link": "http://arxiv.org/pdf/2301.02918v1"
   }
 ]
