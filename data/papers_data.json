@@ -183,16 +183,21 @@
     "pdf_link": "http://arxiv.org/pdf/2410.20159v1"
   },
   {
-    "title": "QueST: Querying Functional and Structural Niches on Spatial   Transcriptomics Data via Contrastive Subgraph Embedding",
+    "title": "Querying functional and structural niches on spatial transcriptomics   data",
     "authors": [
       "Mo Chen",
       "Minsheng Hao",
+      "Xinquan Liu",
+      "Lin Deng",
+      "Chen Li",
+      "Dongfang Wang",
+      "Kui Hua",
       "Xuegong Zhang",
       "Lei Wei"
     ],
     "published": "2024-10-14T16:01:27Z",
-    "link": "http://arxiv.org/abs/2410.10652v1",
-    "pdf_link": "http://arxiv.org/pdf/2410.10652v1"
+    "link": "http://arxiv.org/abs/2410.10652v2",
+    "pdf_link": "http://arxiv.org/pdf/2410.10652v2"
   },
   {
     "title": "Hyperedge Representations with Hypergraph Wavelets: Applications to   Spatial Transcriptomics",
