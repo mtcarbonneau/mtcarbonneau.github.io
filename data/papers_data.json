@@ -1,5 +1,24 @@
 [
   {
+    "title": "PAST: A multimodal single-cell foundation model for histopathology and   spatial transcriptomics in cancer",
+    "authors": [
+      "Changchun Yang",
+      "Haoyang Li",
+      "Yushuai Wu",
+      "Yilan Zhang",
+      "Yifeng Jiao",
+      "Yu Zhang",
+      "Rihan Huang",
+      "Yuan Cheng",
+      "Yuan Qi",
+      "Xin Guo",
+      "Xin Gao"
+    ],
+    "published": "2025-07-08T21:51:25Z",
+    "link": "http://arxiv.org/abs/2507.06418v1",
+    "pdf_link": "http://arxiv.org/pdf/2507.06418v1"
+  },
+  {
     "title": "SemanticST: Spatially Informed Semantic Graph Learning for Clustering,   Integration, and Scalable Analysis of Spatial Transcriptomics",
     "authors": [
       "Roxana Zahedi",
@@ -394,16 +413,5 @@
     "published": "2023-02-01T18:32:06Z",
     "link": "http://arxiv.org/abs/2302.00658v1",
     "pdf_link": "http://arxiv.org/pdf/2302.00658v1"
-  },
-  {
-    "title": "SpaceTx: A Roadmap for Benchmarking Spatial Transcriptomics Exploration   of the Brain",
-    "authors": [
-      "Brian Long",
-      "Jeremy Miller",
-      "The SpaceTx Consortium"
-    ],
-    "published": "2023-01-20T06:20:45Z",
-    "link": "http://arxiv.org/abs/2301.08436v1",
-    "pdf_link": "http://arxiv.org/pdf/2301.08436v1"
   }
 ]
