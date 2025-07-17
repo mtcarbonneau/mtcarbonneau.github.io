@@ -1,5 +1,19 @@
 [
   {
+    "title": "SToFM: a Multi-scale Foundation Model for Spatial Transcriptomics",
+    "authors": [
+      "Suyuan Zhao",
+      "Yizhen Luo",
+      "Ganbo Yang",
+      "Yan Zhong",
+      "Hao Zhou",
+      "Zaiqing Nie"
+    ],
+    "published": "2025-07-15T14:47:01Z",
+    "link": "http://arxiv.org/abs/2507.11588v1",
+    "pdf_link": "http://arxiv.org/pdf/2507.11588v1"
+  },
+  {
     "title": "PAST: A multimodal single-cell foundation model for histopathology and   spatial transcriptomics in cancer",
     "authors": [
       "Changchun Yang",
@@ -403,15 +417,5 @@
     "published": "2023-02-06T01:44:13Z",
     "link": "http://arxiv.org/abs/2302.03038v2",
     "pdf_link": "http://arxiv.org/pdf/2302.03038v2"
-  },
-  {
-    "title": "Graph Neural Operators for Classification of Spatial Transcriptomics   Data",
-    "authors": [
-      "Junaid Ahmed",
-      "Alhassan S. Yasin"
-    ],
-    "published": "2023-02-01T18:32:06Z",
-    "link": "http://arxiv.org/abs/2302.00658v1",
-    "pdf_link": "http://arxiv.org/pdf/2302.00658v1"
   }
 ]
