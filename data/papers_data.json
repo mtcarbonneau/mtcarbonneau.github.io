@@ -1,5 +1,18 @@
 [
   {
+    "title": "Evaluating Integrative Strategies for Incorporating Phenotypic Features   in Spatial Transcriptomics",
+    "authors": [
+      "Levin M Moser",
+      "Ahmad Kamal Hamid",
+      "Esteban Miglietta",
+      "Nodar Gogoberidze",
+      "Beth A Cimini"
+    ],
+    "published": "2025-07-29T20:19:11Z",
+    "link": "http://arxiv.org/abs/2507.22212v1",
+    "pdf_link": "http://arxiv.org/pdf/2507.22212v1"
+  },
+  {
     "title": "SToFM: a Multi-scale Foundation Model for Spatial Transcriptomics",
     "authors": [
       "Suyuan Zhao",
@@ -399,23 +412,5 @@
     "published": "2023-03-17T14:03:40Z",
     "link": "http://arxiv.org/abs/2303.09987v1",
     "pdf_link": "http://arxiv.org/pdf/2303.09987v1"
-  },
-  {
-    "title": "Single Cells Are Spatial Tokens: Transformers for Spatial Transcriptomic   Data Imputation",
-    "authors": [
-      "Hongzhi Wen",
-      "Wenzhuo Tang",
-      "Wei Jin",
-      "Jiayuan Ding",
-      "Renming Liu",
-      "Xinnan Dai",
-      "Feng Shi",
-      "Lulu Shang",
-      "Hui Liu",
-      "Yuying Xie"
-    ],
-    "published": "2023-02-06T01:44:13Z",
-    "link": "http://arxiv.org/abs/2302.03038v2",
-    "pdf_link": "http://arxiv.org/pdf/2302.03038v2"
   }
 ]
