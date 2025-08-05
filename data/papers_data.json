@@ -1,5 +1,22 @@
 [
   {
+    "title": "A Large-Scale Benchmark of Cross-Modal Learning for Histology and Gene   Expression in Spatial Transcriptomics",
+    "authors": [
+      "Rushin H. Gindra",
+      "Giovanni Palla",
+      "Mathias Nguyen",
+      "Sophia J. Wagner",
+      "Manuel Tran",
+      "Fabian J Theis",
+      "Dieter Saur",
+      "Lorin Crawford",
+      "Tingying Peng"
+    ],
+    "published": "2025-08-02T21:11:36Z",
+    "link": "http://arxiv.org/abs/2508.01490v1",
+    "pdf_link": "http://arxiv.org/pdf/2508.01490v1"
+  },
+  {
     "title": "Evaluating Integrative Strategies for Incorporating Phenotypic Features   in Spatial Transcriptomics",
     "authors": [
       "Levin M Moser",
@@ -401,16 +418,5 @@
     "published": "2023-03-19T13:42:38Z",
     "link": "http://arxiv.org/abs/2303.10657v2",
     "pdf_link": "http://arxiv.org/pdf/2303.10657v2"
-  },
-  {
-    "title": "Breast Cancer Histopathology Image based Gene Expression Prediction   using Spatial Transcriptomics data and Deep Learning",
-    "authors": [
-      "Md Mamunur Rahaman",
-      "Ewan K. A. Millar",
-      "Erik Meijering"
-    ],
-    "published": "2023-03-17T14:03:40Z",
-    "link": "http://arxiv.org/abs/2303.09987v1",
-    "pdf_link": "http://arxiv.org/pdf/2303.09987v1"
   }
 ]
