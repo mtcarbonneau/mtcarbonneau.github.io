@@ -76,5 +76,219 @@
     "published": "2025-06-13T06:30:48Z",
     "link": "http://arxiv.org/abs/2506.11491v2",
     "pdf_link": "http://arxiv.org/pdf/2506.11491v2"
+  },
+  {
+    "title": "HEIST: A Graph Foundation Model for Spatial Transcriptomics and   Proteomics Data",
+    "authors": [
+      "Hiren Madhu",
+      "João Felipe Rocha",
+      "Tinglin Huang",
+      "Siddharth Viswanath",
+      "Smita Krishnaswamy",
+      "Rex Ying"
+    ],
+    "published": "2025-06-11T12:29:01Z",
+    "link": "http://arxiv.org/abs/2506.11152v1",
+    "pdf_link": "http://arxiv.org/pdf/2506.11152v1"
+  },
+  {
+    "title": "Scalable Generation of Spatial Transcriptomics from Histology Images via   Whole-Slide Flow Matching",
+    "authors": [
+      "Tinglin Huang",
+      "Tianyu Liu",
+      "Mehrtash Babadi",
+      "Wengong Jin",
+      "Rex Ying"
+    ],
+    "published": "2025-05-25T01:29:19Z",
+    "link": "http://arxiv.org/abs/2506.05361v1",
+    "pdf_link": "http://arxiv.org/pdf/2506.05361v1"
+  },
+  {
+    "title": "MOSAIK: Multi-Origin Spatial Transcriptomics Analysis and Integration   Kit",
+    "authors": [
+      "Anthony Baptista",
+      "Rosamond Nuamah",
+      "Ciro Chiappini",
+      "Anita Grigoriadis"
+    ],
+    "published": "2025-05-16T15:46:55Z",
+    "link": "http://arxiv.org/abs/2505.11384v1",
+    "pdf_link": "http://arxiv.org/pdf/2505.11384v1"
+  },
+  {
+    "title": "Adaptive Spatial Transcriptomics Interpolation via Cross-modal   Cross-slice Modeling",
+    "authors": [
+      "NingFeng Que",
+      "Xiaofei Wang",
+      "Jingjing Chen",
+      "Yixuan Jiang",
+      "Chao Li"
+    ],
+    "published": "2025-05-15T22:14:39Z",
+    "link": "http://arxiv.org/abs/2505.10729v1",
+    "pdf_link": "http://arxiv.org/pdf/2505.10729v1"
+  },
+  {
+    "title": "TransST: Transfer Learning Embedded Spatial Factor Modeling of Spatial   Transcriptomics Data",
+    "authors": [
+      "Shuo Shuo Liu",
+      "Shikun Wang",
+      "Yuxuan Chen",
+      "Anil K. Rustgi",
+      "Ming Yuan",
+      "Jianhua Hu"
+    ],
+    "published": "2025-04-15T22:03:38Z",
+    "link": "http://arxiv.org/abs/2504.12353v1",
+    "pdf_link": "http://arxiv.org/pdf/2504.12353v1"
+  },
+  {
+    "title": "Spatial Transcriptomics Iterative Hierarchical Clustering (stIHC): A   Novel Method for Identifying Spatial Gene Co-Expression Modules",
+    "authors": [
+      "Catherine Higgins",
+      "Jingyi Jessica Li",
+      "Michelle Carey"
+    ],
+    "published": "2025-02-13T18:31:24Z",
+    "link": "http://arxiv.org/abs/2502.09574v1",
+    "pdf_link": "http://arxiv.org/pdf/2502.09574v1"
+  },
+  {
+    "title": "MEATRD: Multimodal Anomalous Tissue Region Detection Enhanced with   Spatial Transcriptomics",
+    "authors": [
+      "Kaichen Xu",
+      "Qilong Wu",
+      "Yan Lu",
+      "Yinan Zheng",
+      "Wenlin Li",
+      "Xingjie Tang",
+      "Jun Wang",
+      "Xiaobo Sun"
+    ],
+    "published": "2024-12-14T03:09:04Z",
+    "link": "http://arxiv.org/abs/2412.10659v1",
+    "pdf_link": "http://arxiv.org/pdf/2412.10659v1"
+  },
+  {
+    "title": "Deep Learning in Single-Cell and Spatial Transcriptomics Data Analysis:   Advances and Challenges from a Data Science Perspective",
+    "authors": [
+      "Shuang Ge",
+      "Shuqing Sun",
+      "Huan Xu",
+      "Qiang Cheng",
+      "Zhixiang Ren"
+    ],
+    "published": "2024-12-04T14:07:11Z",
+    "link": "http://arxiv.org/abs/2412.03614v2",
+    "pdf_link": "http://arxiv.org/pdf/2412.03614v2"
+  },
+  {
+    "title": "SUICA: Learning Super-high Dimensional Sparse Implicit Neural   Representations for Spatial Transcriptomics",
+    "authors": [
+      "Qingtian Zhu",
+      "Yumin Zheng",
+      "Yuling Sang",
+      "Yifan Zhan",
+      "Ziyan Zhu",
+      "Jun Ding",
+      "Yinqiang Zheng"
+    ],
+    "published": "2024-12-02T05:02:18Z",
+    "link": "http://arxiv.org/abs/2412.01124v2",
+    "pdf_link": "http://arxiv.org/pdf/2412.01124v2"
+  },
+  {
+    "title": "Towards Unified Molecule-Enhanced Pathology Image Representation   Learning via Integrating Spatial Transcriptomics",
+    "authors": [
+      "Minghao Han",
+      "Dingkang Yang",
+      "Jiabei Cheng",
+      "Xukun Zhang",
+      "Linhao Qu",
+      "Zizhi Chen",
+      "Lihua Zhang"
+    ],
+    "published": "2024-12-01T03:09:52Z",
+    "link": "http://arxiv.org/abs/2412.00651v1",
+    "pdf_link": "http://arxiv.org/pdf/2412.00651v1"
+  },
+  {
+    "title": "ST-Align: A Multimodal Foundation Model for Image-Gene Alignment in   Spatial Transcriptomics",
+    "authors": [
+      "Yuxiang Lin",
+      "Ling Luo",
+      "Ying Chen",
+      "Xushi Zhang",
+      "Zihui Wang",
+      "Wenxian Yang",
+      "Mengsha Tong",
+      "Rongshan Yu"
+    ],
+    "published": "2024-11-25T09:15:07Z",
+    "link": "http://arxiv.org/abs/2411.16793v1",
+    "pdf_link": "http://arxiv.org/pdf/2411.16793v1"
+  },
+  {
+    "title": "GATES: Graph Attention Network with Global Expression Fusion for   Deciphering Spatial Transcriptome Architectures",
+    "authors": [
+      "Xiongtao Xiao",
+      "Xiaofeng Chen",
+      "Feiyan Jiang",
+      "Songming Zhang",
+      "Wenming Cao",
+      "Cheng Tan",
+      "Zhangyang Gao",
+      "Zhongshan Li"
+    ],
+    "published": "2024-10-26T12:18:23Z",
+    "link": "http://arxiv.org/abs/2410.20159v1",
+    "pdf_link": "http://arxiv.org/pdf/2410.20159v1"
+  },
+  {
+    "title": "Querying functional and structural niches on spatial transcriptomics   data",
+    "authors": [
+      "Mo Chen",
+      "Minsheng Hao",
+      "Xinquan Liu",
+      "Lin Deng",
+      "Chen Li",
+      "Dongfang Wang",
+      "Kui Hua",
+      "Xuegong Zhang",
+      "Lei Wei"
+    ],
+    "published": "2024-10-14T16:01:27Z",
+    "link": "http://arxiv.org/abs/2410.10652v2",
+    "pdf_link": "http://arxiv.org/pdf/2410.10652v2"
+  },
+  {
+    "title": "Hyperedge Representations with Hypergraph Wavelets: Applications to   Spatial Transcriptomics",
+    "authors": [
+      "Xingzhi Sun",
+      "Charles Xu",
+      "João F. Rocha",
+      "Chen Liu",
+      "Benjamin Hollander-Bodie",
+      "Laney Goldman",
+      "Marcello DiStasio",
+      "Michael Perlmutter",
+      "Smita Krishnaswamy"
+    ],
+    "published": "2024-09-14T15:33:37Z",
+    "link": "http://arxiv.org/abs/2409.09469v1",
+    "pdf_link": "http://arxiv.org/pdf/2409.09469v1"
+  },
+  {
+    "title": "stEnTrans: Transformer-based deep learning for spatial transcriptomics   enhancement",
+    "authors": [
+      "Shuailin Xue",
+      "Fangfang Zhu",
+      "Changmiao Wang",
+      "Wenwen Min"
+    ],
+    "published": "2024-07-11T06:50:34Z",
+    "link": "http://arxiv.org/abs/2407.08224v1",
+    "pdf_link": "http://arxiv.org/pdf/2407.08224v1"
   }
 ]
