@@ -1,5 +1,18 @@
 [
   {
+    "title": "HaDM-ST: Histology-Assisted Differential Modeling for Spatial   Transcriptomics Generation",
+    "authors": [
+      "Xuepeng Liu",
+      "Zheng Jiang",
+      "Pinan Zhu",
+      "Hanyu Liu",
+      "Chao Li"
+    ],
+    "published": "2025-08-10T08:09:06Z",
+    "link": "http://arxiv.org/abs/2508.07225v1",
+    "pdf_link": "http://arxiv.org/pdf/2508.07225v1"
+  },
+  {
     "title": "A Large-Scale Benchmark of Cross-Modal Learning for Histology and Gene   Expression in Spatial Transcriptomics",
     "authors": [
       "Rushin H. Gindra",
@@ -290,5 +303,119 @@
     "published": "2024-07-11T06:50:34Z",
     "link": "http://arxiv.org/abs/2407.08224v1",
     "pdf_link": "http://arxiv.org/pdf/2407.08224v1"
+  },
+  {
+    "title": "QuST-LLM: Integrating Large Language Models for Comprehensive Spatial   Transcriptomics Analysis",
+    "authors": [
+      "Chao Hui Huang"
+    ],
+    "published": "2024-06-20T13:37:10Z",
+    "link": "http://arxiv.org/abs/2406.14307v2",
+    "pdf_link": "http://arxiv.org/pdf/2406.14307v2"
+  },
+  {
+    "title": "STimage-1K4M: A histopathology image-gene expression dataset for spatial   transcriptomics",
+    "authors": [
+      "Jiawen Chen",
+      "Muqing Zhou",
+      "Wenrong Wu",
+      "Jinwei Zhang",
+      "Yun Li",
+      "Didong Li"
+    ],
+    "published": "2024-06-10T15:48:07Z",
+    "link": "http://arxiv.org/abs/2406.06393v2",
+    "pdf_link": "http://arxiv.org/pdf/2406.06393v2"
+  },
+  {
+    "title": "QuST: QuPath Extension for Integrative Whole Slide Image and Spatial   Transcriptomics Analysis",
+    "authors": [
+      "Chao-Hui Huang",
+      "Sara Lichtarge",
+      "Diane Fernandez"
+    ],
+    "published": "2024-05-31T00:08:09Z",
+    "link": "http://arxiv.org/abs/2406.01613v3",
+    "pdf_link": "http://arxiv.org/pdf/2406.01613v3"
+  },
+  {
+    "title": "Cross-modal Diffusion Modelling for Super-resolved Spatial   Transcriptomics",
+    "authors": [
+      "Xiaofei Wang",
+      "Xingxu Huang",
+      "Stephen J. Price",
+      "Chao Li"
+    ],
+    "published": "2024-04-19T16:01:00Z",
+    "link": "http://arxiv.org/abs/2404.12973v2",
+    "pdf_link": "http://arxiv.org/pdf/2404.12973v2"
+  },
+  {
+    "title": "stMCDI: Masked Conditional Diffusion Model with Graph Neural Network for   Spatial Transcriptomics Data Imputation",
+    "authors": [
+      "Xiaoyu Li",
+      "Wenwen Min",
+      "Shunfang Wang",
+      "Changmiao Wang",
+      "Taosheng Xu"
+    ],
+    "published": "2024-03-16T09:06:38Z",
+    "link": "http://arxiv.org/abs/2403.10863v1",
+    "pdf_link": "http://arxiv.org/pdf/2403.10863v1"
+  },
+  {
+    "title": "A selective review of recent developments in spatially variable gene   detection for spatial transcriptomics",
+    "authors": [
+      "Sikta Das Adhikari",
+      "Jiaxin Yang",
+      "Jianrong Wang",
+      "Yuehua Cui"
+    ],
+    "published": "2023-11-23T04:20:14Z",
+    "link": "http://arxiv.org/abs/2311.13801v1",
+    "pdf_link": "http://arxiv.org/pdf/2311.13801v1"
+  },
+  {
+    "title": "Latent Space Inference For Spatial Transcriptomics",
+    "authors": [
+      "J. Ding",
+      "S. N. Zaman",
+      "P. Y. Chen",
+      "D. Wang"
+    ],
+    "published": "2023-11-01T06:50:00Z",
+    "link": "http://arxiv.org/abs/2311.00330v1",
+    "pdf_link": "http://arxiv.org/pdf/2311.00330v1"
+  },
+  {
+    "title": "Spatial Pathomics Toolkit for Quantitative Analysis of Podocyte Nuclei   with Histology and Spatial Transcriptomics Data in Renal Pathology",
+    "authors": [
+      "Jiayuan Chen",
+      "Yu Wang",
+      "Ruining Deng",
+      "Quan Liu",
+      "Can Cui",
+      "Tianyuan Yao",
+      "Yilin Liu",
+      "Jianyong Zhong",
+      "Agnes B. Fogo",
+      "Haichun Yang",
+      "Shilin Zhao",
+      "Yuankai Huo"
+    ],
+    "published": "2023-08-10T17:16:52Z",
+    "link": "http://arxiv.org/abs/2308.06288v1",
+    "pdf_link": "http://arxiv.org/pdf/2308.06288v1"
+  },
+  {
+    "title": "Machine Learning for Uncovering Biological Insights in Spatial   Transcriptomics Data",
+    "authors": [
+      "Alex J. Lee",
+      "Robert Cahill",
+      "Reza Abbasi-Asl"
+    ],
+    "published": "2023-03-29T14:22:08Z",
+    "link": "http://arxiv.org/abs/2303.16725v1",
+    "pdf_link": "http://arxiv.org/pdf/2303.16725v1"
   }
 ]
