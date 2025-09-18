@@ -1,5 +1,19 @@
 [
   {
+    "title": "Benchmarking Dimensionality Reduction Techniques for Spatial   Transcriptomics",
+    "authors": [
+      "Md Ishtyaq Mahmud",
+      "Veena Kochat",
+      "Suresh Satpati",
+      "Jagan Mohan Reddy Dwarampudi",
+      "Kunal Rai",
+      "Tania Banerjee"
+    ],
+    "published": "2025-09-12T17:27:34Z",
+    "link": "http://arxiv.org/abs/2509.13344v1",
+    "pdf_link": "http://arxiv.org/pdf/2509.13344v1"
+  },
+  {
     "title": "HaDM-ST: Histology-Assisted Differential Modeling for Spatial   Transcriptomics Generation",
     "authors": [
       "Xuepeng Liu",
@@ -406,16 +420,5 @@
     "published": "2023-08-10T17:16:52Z",
     "link": "http://arxiv.org/abs/2308.06288v1",
     "pdf_link": "http://arxiv.org/pdf/2308.06288v1"
-  },
-  {
-    "title": "Machine Learning for Uncovering Biological Insights in Spatial   Transcriptomics Data",
-    "authors": [
-      "Alex J. Lee",
-      "Robert Cahill",
-      "Reza Abbasi-Asl"
-    ],
-    "published": "2023-03-29T14:22:08Z",
-    "link": "http://arxiv.org/abs/2303.16725v1",
-    "pdf_link": "http://arxiv.org/pdf/2303.16725v1"
   }
 ]
