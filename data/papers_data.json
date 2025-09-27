@@ -351,5 +351,74 @@
     "published": "2024-05-31T00:08:09Z",
     "link": "http://arxiv.org/abs/2406.01613v3",
     "pdf_link": "http://arxiv.org/pdf/2406.01613v3"
+  },
+  {
+    "title": "Cross-modal Diffusion Modelling for Super-resolved Spatial   Transcriptomics",
+    "authors": [
+      "Xiaofei Wang",
+      "Xingxu Huang",
+      "Stephen J. Price",
+      "Chao Li"
+    ],
+    "published": "2024-04-19T16:01:00Z",
+    "link": "http://arxiv.org/abs/2404.12973v2",
+    "pdf_link": "http://arxiv.org/pdf/2404.12973v2"
+  },
+  {
+    "title": "stMCDI: Masked Conditional Diffusion Model with Graph Neural Network for   Spatial Transcriptomics Data Imputation",
+    "authors": [
+      "Xiaoyu Li",
+      "Wenwen Min",
+      "Shunfang Wang",
+      "Changmiao Wang",
+      "Taosheng Xu"
+    ],
+    "published": "2024-03-16T09:06:38Z",
+    "link": "http://arxiv.org/abs/2403.10863v1",
+    "pdf_link": "http://arxiv.org/pdf/2403.10863v1"
+  },
+  {
+    "title": "A selective review of recent developments in spatially variable gene   detection for spatial transcriptomics",
+    "authors": [
+      "Sikta Das Adhikari",
+      "Jiaxin Yang",
+      "Jianrong Wang",
+      "Yuehua Cui"
+    ],
+    "published": "2023-11-23T04:20:14Z",
+    "link": "http://arxiv.org/abs/2311.13801v1",
+    "pdf_link": "http://arxiv.org/pdf/2311.13801v1"
+  },
+  {
+    "title": "Latent Space Inference For Spatial Transcriptomics",
+    "authors": [
+      "J. Ding",
+      "S. N. Zaman",
+      "P. Y. Chen",
+      "D. Wang"
+    ],
+    "published": "2023-11-01T06:50:00Z",
+    "link": "http://arxiv.org/abs/2311.00330v1",
+    "pdf_link": "http://arxiv.org/pdf/2311.00330v1"
+  },
+  {
+    "title": "Spatial Pathomics Toolkit for Quantitative Analysis of Podocyte Nuclei   with Histology and Spatial Transcriptomics Data in Renal Pathology",
+    "authors": [
+      "Jiayuan Chen",
+      "Yu Wang",
+      "Ruining Deng",
+      "Quan Liu",
+      "Can Cui",
+      "Tianyuan Yao",
+      "Yilin Liu",
+      "Jianyong Zhong",
+      "Agnes B. Fogo",
+      "Haichun Yang",
+      "Shilin Zhao",
+      "Yuankai Huo"
+    ],
+    "published": "2023-08-10T17:16:52Z",
+    "link": "http://arxiv.org/abs/2308.06288v1",
+    "pdf_link": "http://arxiv.org/pdf/2308.06288v1"
   }
 ]
