@@ -1,5 +1,20 @@
 [
   {
+    "title": "Large-scale spatial variable gene atlas for spatial transcriptomics",
+    "authors": [
+      "Jiawen Chen",
+      "Jinwei Zhang",
+      "Dongshen Peng",
+      "Yutong Song",
+      "Aitong Ruan",
+      "Yun Li",
+      "Didong Li"
+    ],
+    "published": "2025-10-09T01:03:58Z",
+    "link": "http://arxiv.org/abs/2510.07653v1",
+    "pdf_link": "http://arxiv.org/pdf/2510.07653v1"
+  },
+  {
     "title": "Benchmarking Dimensionality Reduction Techniques for Spatial   Transcriptomics",
     "authors": [
       "Md Ishtyaq Mahmud",
@@ -400,25 +415,5 @@
     "published": "2023-11-01T06:50:00Z",
     "link": "http://arxiv.org/abs/2311.00330v1",
     "pdf_link": "http://arxiv.org/pdf/2311.00330v1"
-  },
-  {
-    "title": "Spatial Pathomics Toolkit for Quantitative Analysis of Podocyte Nuclei   with Histology and Spatial Transcriptomics Data in Renal Pathology",
-    "authors": [
-      "Jiayuan Chen",
-      "Yu Wang",
-      "Ruining Deng",
-      "Quan Liu",
-      "Can Cui",
-      "Tianyuan Yao",
-      "Yilin Liu",
-      "Jianyong Zhong",
-      "Agnes B. Fogo",
-      "Haichun Yang",
-      "Shilin Zhao",
-      "Yuankai Huo"
-    ],
-    "published": "2023-08-10T17:16:52Z",
-    "link": "http://arxiv.org/abs/2308.06288v1",
-    "pdf_link": "http://arxiv.org/pdf/2308.06288v1"
   }
 ]
