@@ -1,5 +1,19 @@
 [
   {
+    "title": "ST2HE: A Cross-Platform Framework for Virtual Histology and Annotation   of High-Resolution Spatial Transcriptomics Data",
+    "authors": [
+      "Zhentao Liu",
+      "Arun Das",
+      "Wen Meng",
+      "Yu-Chiao Chiu",
+      "Shou-Jiang Gao",
+      "Yufei Huang"
+    ],
+    "published": "2025-10-13T19:16:48Z",
+    "link": "http://arxiv.org/abs/2510.12840v1",
+    "pdf_link": "http://arxiv.org/pdf/2510.12840v1"
+  },
+  {
     "title": "Large-scale spatial variable gene atlas for spatial transcriptomics",
     "authors": [
       "Jiawen Chen",
@@ -403,17 +417,5 @@
     "published": "2023-11-23T04:20:14Z",
     "link": "http://arxiv.org/abs/2311.13801v1",
     "pdf_link": "http://arxiv.org/pdf/2311.13801v1"
-  },
-  {
-    "title": "Latent Space Inference For Spatial Transcriptomics",
-    "authors": [
-      "J. Ding",
-      "S. N. Zaman",
-      "P. Y. Chen",
-      "D. Wang"
-    ],
-    "published": "2023-11-01T06:50:00Z",
-    "link": "http://arxiv.org/abs/2311.00330v1",
-    "pdf_link": "http://arxiv.org/pdf/2311.00330v1"
   }
 ]
