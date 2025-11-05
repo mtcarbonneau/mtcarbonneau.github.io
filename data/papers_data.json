@@ -1,5 +1,18 @@
 [
   {
+    "title": "Modeling Microenvironment Trajectories on Spatial Transcriptomics with   NicheFlow",
+    "authors": [
+      "Kristiyan Sakalyan",
+      "Alessandro Palma",
+      "Filippo Guerranti",
+      "Fabian J. Theis",
+      "Stephan Günnemann"
+    ],
+    "published": "2025-11-02T15:41:38Z",
+    "link": "http://arxiv.org/abs/2511.00977v1",
+    "pdf_link": "http://arxiv.org/pdf/2511.00977v1"
+  },
+  {
     "title": "ST2HE: A Cross-Platform Framework for Virtual Histology and Annotation   of High-Resolution Spatial Transcriptomics Data",
     "authors": [
       "Zhentao Liu",
@@ -390,8 +403,8 @@
       "Chao Li"
     ],
     "published": "2024-04-19T16:01:00Z",
-    "link": "http://arxiv.org/abs/2404.12973v2",
-    "pdf_link": "http://arxiv.org/pdf/2404.12973v2"
+    "link": "http://arxiv.org/abs/2404.12973v3",
+    "pdf_link": "http://arxiv.org/pdf/2404.12973v3"
   },
   {
     "title": "stMCDI: Masked Conditional Diffusion Model with Graph Neural Network for   Spatial Transcriptomics Data Imputation",
@@ -405,17 +418,5 @@
     "published": "2024-03-16T09:06:38Z",
     "link": "http://arxiv.org/abs/2403.10863v1",
     "pdf_link": "http://arxiv.org/pdf/2403.10863v1"
-  },
-  {
-    "title": "A selective review of recent developments in spatially variable gene   detection for spatial transcriptomics",
-    "authors": [
-      "Sikta Das Adhikari",
-      "Jiaxin Yang",
-      "Jianrong Wang",
-      "Yuehua Cui"
-    ],
-    "published": "2023-11-23T04:20:14Z",
-    "link": "http://arxiv.org/abs/2311.13801v1",
-    "pdf_link": "http://arxiv.org/pdf/2311.13801v1"
   }
 ]
