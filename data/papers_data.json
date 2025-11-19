@@ -1,5 +1,17 @@
 [
   {
+    "title": "CellStream: Dynamical Optimal Transport Informed Embeddings for Reconstructing Cellular Trajectories from Snapshots Data",
+    "authors": [
+      "Yue Ling",
+      "Peiqi Zhang",
+      "Zhenyi Zhang",
+      "Peijie Zhou"
+    ],
+    "published": "2025-11-16T13:18:45Z",
+    "link": "http://arxiv.org/abs/2511.13786v1",
+    "pdf_link": "https://arxiv.org/pdf/2511.13786v1"
+  },
+  {
     "title": "PHD-MS: Multiscale Domain Identification for Spatial Transcriptomics via Persistent Homology",
     "authors": [
       "Perry Beamer",
@@ -390,16 +402,5 @@
     "published": "2024-12-04T14:07:11Z",
     "link": "http://arxiv.org/abs/2412.03614v2",
     "pdf_link": "https://arxiv.org/pdf/2412.03614v2"
-  },
-  {
-    "title": "gghic: A Versatile R Package for Exploring and Visualizing 3D Genome Organization",
-    "authors": [
-      "Minghao Jiang",
-      "Duohui Jing",
-      "Jason W. H. Wong"
-    ],
-    "published": "2024-12-04T03:50:26Z",
-    "link": "http://arxiv.org/abs/2412.03005v1",
-    "pdf_link": "https://arxiv.org/pdf/2412.03005v1"
   }
 ]
