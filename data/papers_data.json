@@ -1,5 +1,15 @@
 [
   {
+    "title": "Leveraging NCBI Genomic Metadata for Epidemiological Insights: Example of Enterobacterales",
+    "authors": [
+      "Bryan Harris",
+      "Majid Bani-Yaghoub"
+    ],
+    "published": "2025-11-18T18:03:12Z",
+    "link": "http://arxiv.org/abs/2511.14826v1",
+    "pdf_link": "https://arxiv.org/pdf/2511.14826v1"
+  },
+  {
     "title": "CellStream: Dynamical Optimal Transport Informed Embeddings for Reconstructing Cellular Trajectories from Snapshots Data",
     "authors": [
       "Yue Ling",
@@ -389,18 +399,5 @@
     "published": "2024-12-14T03:09:04Z",
     "link": "http://arxiv.org/abs/2412.10659v1",
     "pdf_link": "https://arxiv.org/pdf/2412.10659v1"
-  },
-  {
-    "title": "Deep Learning in Single-Cell and Spatial Transcriptomics Data Analysis: Advances and Challenges from a Data Science Perspective",
-    "authors": [
-      "Shuang Ge",
-      "Shuqing Sun",
-      "Huan Xu",
-      "Qiang Cheng",
-      "Zhixiang Ren"
-    ],
-    "published": "2024-12-04T14:07:11Z",
-    "link": "http://arxiv.org/abs/2412.03614v2",
-    "pdf_link": "https://arxiv.org/pdf/2412.03614v2"
   }
 ]
