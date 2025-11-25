@@ -1,5 +1,18 @@
 [
   {
+    "title": "Dual-Path Knowledge-Augmented Contrastive Alignment Network for Spatially Resolved Transcriptomics",
+    "authors": [
+      "Wei Zhang",
+      "Jiajun Chu",
+      "Xinci Liu",
+      "Chen Tong",
+      "Xinyue Li"
+    ],
+    "published": "2025-11-21T10:58:04Z",
+    "link": "http://arxiv.org/abs/2511.17685v1",
+    "pdf_link": "https://arxiv.org/pdf/2511.17685v1"
+  },
+  {
     "title": "Leveraging NCBI Genomic Metadata for Epidemiological Insights: Example of Enterobacterales",
     "authors": [
       "Bryan Harris",
@@ -383,21 +396,5 @@
     "published": "2024-12-18T08:15:26Z",
     "link": "http://arxiv.org/abs/2412.13591v1",
     "pdf_link": "https://arxiv.org/pdf/2412.13591v1"
-  },
-  {
-    "title": "MEATRD: Multimodal Anomalous Tissue Region Detection Enhanced with Spatial Transcriptomics",
-    "authors": [
-      "Kaichen Xu",
-      "Qilong Wu",
-      "Yan Lu",
-      "Yinan Zheng",
-      "Wenlin Li",
-      "Xingjie Tang",
-      "Jun Wang",
-      "Xiaobo Sun"
-    ],
-    "published": "2024-12-14T03:09:04Z",
-    "link": "http://arxiv.org/abs/2412.10659v1",
-    "pdf_link": "https://arxiv.org/pdf/2412.10659v1"
   }
 ]
