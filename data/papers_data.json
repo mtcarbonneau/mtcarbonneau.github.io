@@ -1,5 +1,23 @@
 [
   {
+    "title": "Imaging-anchored Multiomics in Cardiovascular Disease: Integrating Cardiac Imaging, Bulk, Single-cell, and Spatial Transcriptomics",
+    "authors": [
+      "Minh H. N. Le",
+      "Tuan Vinh",
+      "Thanh-Huy Nguyen",
+      "Tao Li",
+      "Bao Quang Gia Le",
+      "Han H. Huynh",
+      "Monika Raj",
+      "Carl Yang",
+      "Min Xu",
+      "Nguyen Quoc Khanh Le"
+    ],
+    "published": "2026-01-10T23:30:49Z",
+    "link": "http://arxiv.org/abs/2601.07871v1",
+    "pdf_link": "https://arxiv.org/pdf/2601.07871v1"
+  },
+  {
     "title": "PHD-MS: Multiscale Domain Identification for Spatial Transcriptomics via Persistent Homology",
     "authors": [
       "Perry Beamer",
@@ -403,17 +421,5 @@
     "published": "2024-05-31T00:08:09Z",
     "link": "http://arxiv.org/abs/2406.01613v3",
     "pdf_link": "https://arxiv.org/pdf/2406.01613v3"
-  },
-  {
-    "title": "Cross-modal Diffusion Modelling for Super-resolved Spatial Transcriptomics",
-    "authors": [
-      "Xiaofei Wang",
-      "Xingxu Huang",
-      "Stephen J. Price",
-      "Chao Li"
-    ],
-    "published": "2024-04-19T16:01:00Z",
-    "link": "http://arxiv.org/abs/2404.12973v3",
-    "pdf_link": "https://arxiv.org/pdf/2404.12973v3"
   }
 ]
