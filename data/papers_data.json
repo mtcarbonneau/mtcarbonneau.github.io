@@ -1,5 +1,18 @@
 [
   {
+    "title": "SAGE-FM: A lightweight and interpretable spatial transcriptomics foundation model",
+    "authors": [
+      "Xianghao Zhan",
+      "Jingyu Xu",
+      "Yuanning Zheng",
+      "Zinaida Good",
+      "Olivier Gevaert"
+    ],
+    "published": "2026-01-21T22:22:38Z",
+    "link": "http://arxiv.org/abs/2601.15504v1",
+    "pdf_link": "https://arxiv.org/pdf/2601.15504v1"
+  },
+  {
     "title": "Imaging-anchored Multiomics in Cardiovascular Disease: Integrating Cardiac Imaging, Bulk, Single-cell, and Spatial Transcriptomics",
     "authors": [
       "Minh H. N. Le",
@@ -410,16 +423,5 @@
     "published": "2024-06-10T15:48:07Z",
     "link": "http://arxiv.org/abs/2406.06393v2",
     "pdf_link": "https://arxiv.org/pdf/2406.06393v2"
-  },
-  {
-    "title": "QuST: QuPath Extension for Integrative Whole Slide Image and Spatial Transcriptomics Analysis",
-    "authors": [
-      "Chao-Hui Huang",
-      "Sara Lichtarge",
-      "Diane Fernandez"
-    ],
-    "published": "2024-05-31T00:08:09Z",
-    "link": "http://arxiv.org/abs/2406.01613v3",
-    "pdf_link": "https://arxiv.org/pdf/2406.01613v3"
   }
 ]
