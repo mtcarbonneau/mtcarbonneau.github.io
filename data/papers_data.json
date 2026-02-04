@@ -1,5 +1,20 @@
 [
   {
+    "title": "hSNMF: Hybrid Spatially Regularized NMF for Image-Derived Spatial Transcriptomics",
+    "authors": [
+      "Md Ishtyaq Mahmud",
+      "Veena Kochat",
+      "Suresh Satpati",
+      "Jagan Mohan Reddy Dwarampudi",
+      "Humaira Anzum",
+      "Kunal Rai",
+      "Tania Banerjee"
+    ],
+    "published": "2026-02-02T18:40:08Z",
+    "link": "http://arxiv.org/abs/2602.02638v1",
+    "pdf_link": "https://arxiv.org/pdf/2602.02638v1"
+  },
+  {
     "title": "SAGE-FM: A lightweight and interpretable spatial transcriptomics foundation model",
     "authors": [
       "Xianghao Zhan",
@@ -409,19 +424,5 @@
     "published": "2024-06-20T13:37:10Z",
     "link": "http://arxiv.org/abs/2406.14307v2",
     "pdf_link": "https://arxiv.org/pdf/2406.14307v2"
-  },
-  {
-    "title": "STimage-1K4M: A histopathology image-gene expression dataset for spatial transcriptomics",
-    "authors": [
-      "Jiawen Chen",
-      "Muqing Zhou",
-      "Wenrong Wu",
-      "Jinwei Zhang",
-      "Yun Li",
-      "Didong Li"
-    ],
-    "published": "2024-06-10T15:48:07Z",
-    "link": "http://arxiv.org/abs/2406.06393v2",
-    "pdf_link": "https://arxiv.org/pdf/2406.06393v2"
   }
 ]
