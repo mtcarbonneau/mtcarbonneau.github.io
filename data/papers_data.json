@@ -1,5 +1,18 @@
 [
   {
+    "title": "RAFT-UP: Robust Alignment for Spatial Transcriptomics with Explicit Control of Spatial Distortion",
+    "authors": [
+      "Yaqi Wu",
+      "Jingfeng Wang",
+      "Xin Maizie Zhou",
+      "Yanxiang Zhao",
+      "Zixuan Cang"
+    ],
+    "published": "2026-03-18T20:15:41Z",
+    "link": "http://arxiv.org/abs/2603.18249v1",
+    "pdf_link": "https://arxiv.org/pdf/2603.18249v1"
+  },
+  {
     "title": "hSNMF: Hybrid Spatially Regularized NMF for Image-Derived Spatial Transcriptomics",
     "authors": [
       "Md Ishtyaq Mahmud",
@@ -415,14 +428,5 @@
     "published": "2024-07-11T06:50:34Z",
     "link": "http://arxiv.org/abs/2407.08224v1",
     "pdf_link": "https://arxiv.org/pdf/2407.08224v1"
-  },
-  {
-    "title": "QuST-LLM: Integrating Large Language Models for Comprehensive Spatial Transcriptomics Analysis",
-    "authors": [
-      "Chao Hui Huang"
-    ],
-    "published": "2024-06-20T13:37:10Z",
-    "link": "http://arxiv.org/abs/2406.14307v2",
-    "pdf_link": "https://arxiv.org/pdf/2406.14307v2"
   }
 ]
