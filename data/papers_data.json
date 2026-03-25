@@ -1,5 +1,16 @@
 [
   {
+    "title": "Subspace Tensor Orthogonal Rotation Model (STORM) for Batch Alignment, Cell Type Deconvolution, and Gene Imputation in Spatial Transcriptomic Data",
+    "authors": [
+      "Sean Cottrell",
+      "Guo-Wei Wei",
+      "Longxiu Huang"
+    ],
+    "published": "2026-03-23T18:45:12Z",
+    "link": "http://arxiv.org/abs/2603.22477v1",
+    "pdf_link": "https://arxiv.org/pdf/2603.22477v1"
+  },
+  {
     "title": "RAFT-UP: Robust Alignment for Spatial Transcriptomics with Explicit Control of Spatial Distortion",
     "authors": [
       "Yaqi Wu",
@@ -416,17 +427,5 @@
     "published": "2024-09-14T15:33:37Z",
     "link": "http://arxiv.org/abs/2409.09469v1",
     "pdf_link": "https://arxiv.org/pdf/2409.09469v1"
-  },
-  {
-    "title": "stEnTrans: Transformer-based deep learning for spatial transcriptomics enhancement",
-    "authors": [
-      "Shuailin Xue",
-      "Fangfang Zhu",
-      "Changmiao Wang",
-      "Wenwen Min"
-    ],
-    "published": "2024-07-11T06:50:34Z",
-    "link": "http://arxiv.org/abs/2407.08224v1",
-    "pdf_link": "https://arxiv.org/pdf/2407.08224v1"
   }
 ]
