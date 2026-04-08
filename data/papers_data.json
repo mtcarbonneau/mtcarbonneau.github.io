@@ -1,5 +1,33 @@
 [
   {
+    "title": "A Multimodal Foundation Model of Spatial Transcriptomics and Histology for Biological Discovery and Clinical Prediction",
+    "authors": [
+      "Jinxi Xiang",
+      "Siyu Hou",
+      "Yuchen Li",
+      "Ryan Quinton",
+      "Xiaoming Zhang",
+      "Feyisope Eweje",
+      "Xiangde Luo",
+      "Yijiang Chen",
+      "Zhe Li",
+      "Colin Bergstrom",
+      "Ted Kim",
+      "Sierra Willens",
+      "Francesca Maria Olguin",
+      "Matthew Abikenari",
+      "Andrew Heider",
+      "Sanjeeth Rajaram",
+      "Joel Neal",
+      "Maximilian Diehn",
+      "Xiang Zhou",
+      "Ruijiang Li"
+    ],
+    "published": "2026-04-04T08:00:26Z",
+    "link": "http://arxiv.org/abs/2604.03630v1",
+    "pdf_link": "https://arxiv.org/pdf/2604.03630v1"
+  },
+  {
     "title": "Subspace Tensor Orthogonal Rotation Model (STORM) for Batch Alignment, Cell Type Deconvolution, and Gene Imputation in Spatial Transcriptomic Data",
     "authors": [
       "Sean Cottrell",
@@ -410,22 +438,5 @@
     "published": "2024-10-14T16:01:27Z",
     "link": "http://arxiv.org/abs/2410.10652v3",
     "pdf_link": "https://arxiv.org/pdf/2410.10652v3"
-  },
-  {
-    "title": "Hyperedge Representations with Hypergraph Wavelets: Applications to Spatial Transcriptomics",
-    "authors": [
-      "Xingzhi Sun",
-      "Charles Xu",
-      "João F. Rocha",
-      "Chen Liu",
-      "Benjamin Hollander-Bodie",
-      "Laney Goldman",
-      "Marcello DiStasio",
-      "Michael Perlmutter",
-      "Smita Krishnaswamy"
-    ],
-    "published": "2024-09-14T15:33:37Z",
-    "link": "http://arxiv.org/abs/2409.09469v1",
-    "pdf_link": "https://arxiv.org/pdf/2409.09469v1"
   }
 ]
