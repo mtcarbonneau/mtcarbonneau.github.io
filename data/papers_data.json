@@ -1,5 +1,20 @@
 [
   {
+    "title": "DiSTILL: A Hybrid Cloud-HPC Workflow System for Reproducible Spatial Transcriptomics Analysis",
+    "authors": [
+      "Myles Joshua Toledo Tan",
+      "Vasco Gerardo Hinostroza Fuentes",
+      "Nikhil Yerra",
+      "Maria Kapetanaki",
+      "Parisa Rashidi",
+      "Kejun Huang",
+      "Panayiotis V. Benos"
+    ],
+    "published": "2026-06-28T23:00:28Z",
+    "link": "http://arxiv.org/abs/2606.30693v1",
+    "pdf_link": "https://arxiv.org/pdf/2606.30693v1"
+  },
+  {
     "title": "A Multimodal Foundation Model of Spatial Transcriptomics and Histology for Biological Discovery and Clinical Prediction",
     "authors": [
       "Jinxi Xiang",
@@ -421,24 +436,5 @@
     "published": "2024-10-26T12:18:23Z",
     "link": "http://arxiv.org/abs/2410.20159v1",
     "pdf_link": "https://arxiv.org/pdf/2410.20159v1"
-  },
-  {
-    "title": "Querying structural and functional niches on spatial transcriptomics data",
-    "authors": [
-      "Mo Chen",
-      "Minsheng Hao",
-      "Xinquan Liu",
-      "Lin Deng",
-      "Peng Liu",
-      "Chen Li",
-      "Dongfang Wang",
-      "Kui Hua",
-      "Liang Guo",
-      "Xuegong Zhang",
-      "Lei Wei"
-    ],
-    "published": "2024-10-14T16:01:27Z",
-    "link": "http://arxiv.org/abs/2410.10652v4",
-    "pdf_link": "https://arxiv.org/pdf/2410.10652v4"
   }
 ]
