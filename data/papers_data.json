@@ -1,5 +1,27 @@
 [
   {
+    "title": "Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics reveals context-dependent generalisation",
+    "authors": [
+      "Sally Chen",
+      "Roxana Zahedi",
+      "Lucy Chhuo",
+      "Ricky Nguyen",
+      "Marjan BaghGolshani",
+      "Amin Beheshti",
+      "Mark Grosser",
+      "Min Yang",
+      "Nona Farbehi",
+      "Nigel Lovell",
+      "Ahmadreza Argha",
+      "Fatemeh Vafaee",
+      "Youqiong Ye",
+      "Hamid Alinejad-Rokny"
+    ],
+    "published": "2026-07-19T12:29:35Z",
+    "link": "http://arxiv.org/abs/2607.17227v1",
+    "pdf_link": "https://arxiv.org/pdf/2607.17227v1"
+  },
+  {
     "title": "DiSTILL: A Hybrid Cloud-HPC Workflow System for Reproducible Spatial Transcriptomics Analysis",
     "authors": [
       "Myles Joshua Toledo Tan",
@@ -420,21 +442,5 @@
     "published": "2024-11-25T09:15:07Z",
     "link": "http://arxiv.org/abs/2411.16793v1",
     "pdf_link": "https://arxiv.org/pdf/2411.16793v1"
-  },
-  {
-    "title": "GATES: Graph Attention Network with Global Expression Fusion for Deciphering Spatial Transcriptome Architectures",
-    "authors": [
-      "Xiongtao Xiao",
-      "Xiaofeng Chen",
-      "Feiyan Jiang",
-      "Songming Zhang",
-      "Wenming Cao",
-      "Cheng Tan",
-      "Zhangyang Gao",
-      "Zhongshan Li"
-    ],
-    "published": "2024-10-26T12:18:23Z",
-    "link": "http://arxiv.org/abs/2410.20159v1",
-    "pdf_link": "https://arxiv.org/pdf/2410.20159v1"
   }
 ]
