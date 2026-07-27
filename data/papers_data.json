@@ -1,5 +1,20 @@
 [
   {
+    "title": "Loom: Multi-Region Analysis of Spatial Transcriptomics with Local Neighborhoods and Global Trajectories",
+    "authors": [
+      "Siyuan Zhao",
+      "Nafiul Nipu",
+      "Hossein Fathollahian",
+      "Olga Karginova",
+      "Hao Chen",
+      "Ameen Salahudeen",
+      "G. Elisabeta Marai"
+    ],
+    "published": "2026-07-24T17:26:51Z",
+    "link": "http://arxiv.org/abs/2607.22505v1",
+    "pdf_link": "https://arxiv.org/pdf/2607.22505v1"
+  },
+  {
     "title": "Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics reveals context-dependent generalisation",
     "authors": [
       "Sally Chen",
@@ -426,21 +441,5 @@
     "published": "2024-12-01T03:09:52Z",
     "link": "http://arxiv.org/abs/2412.00651v1",
     "pdf_link": "https://arxiv.org/pdf/2412.00651v1"
-  },
-  {
-    "title": "ST-Align: A Multimodal Foundation Model for Image-Gene Alignment in Spatial Transcriptomics",
-    "authors": [
-      "Yuxiang Lin",
-      "Ling Luo",
-      "Ying Chen",
-      "Xushi Zhang",
-      "Zihui Wang",
-      "Wenxian Yang",
-      "Mengsha Tong",
-      "Rongshan Yu"
-    ],
-    "published": "2024-11-25T09:15:07Z",
-    "link": "http://arxiv.org/abs/2411.16793v1",
-    "pdf_link": "https://arxiv.org/pdf/2411.16793v1"
   }
 ]
