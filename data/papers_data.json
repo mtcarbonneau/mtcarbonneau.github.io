@@ -1,5 +1,24 @@
 [
   {
+    "title": "VizIt: A multi-view framework for exploring single-cell, spatial, and genetic data online",
+    "authors": [
+      "Chenhang Christopher Zhang",
+      "Yanqing Lou",
+      "Jie Yuan",
+      "Mingming Lu",
+      "Jacob Parker",
+      "Himanshu Chintalapudi",
+      "Zechuan Lin",
+      "Clemens R. Scherzer",
+      "Yuxuan Hu",
+      "Ruifeng Hu",
+      "Xianjun Dong"
+    ],
+    "published": "2026-09-04T02:40:47Z",
+    "link": "http://arxiv.org/abs/2609.04658v1",
+    "pdf_link": "https://arxiv.org/pdf/2609.04658v1"
+  },
+  {
     "title": "Loom: Multi-Region Analysis of Spatial Transcriptomics with Local Neighborhoods and Global Trajectories",
     "authors": [
       "Siyuan Zhao",
@@ -426,20 +445,5 @@
     "published": "2024-12-02T05:02:18Z",
     "link": "http://arxiv.org/abs/2412.01124v2",
     "pdf_link": "https://arxiv.org/pdf/2412.01124v2"
-  },
-  {
-    "title": "Towards Unified Molecule-Enhanced Pathology Image Representation Learning via Integrating Spatial Transcriptomics",
-    "authors": [
-      "Minghao Han",
-      "Dingkang Yang",
-      "Jiabei Cheng",
-      "Xukun Zhang",
-      "Linhao Qu",
-      "Zizhi Chen",
-      "Lihua Zhang"
-    ],
-    "published": "2024-12-01T03:09:52Z",
-    "link": "http://arxiv.org/abs/2412.00651v1",
-    "pdf_link": "https://arxiv.org/pdf/2412.00651v1"
   }
 ]
