@@ -19,6 +19,19 @@
     "pdf_link": "https://arxiv.org/pdf/2609.04658v1"
   },
   {
+    "title": "Correlation-Guided Flow Matching with Annealed Masking for Spatial Transcriptomics Generation",
+    "authors": [
+      "Yupei Zhang",
+      "Hao Chen",
+      "Li Pan",
+      "Chao Li",
+      "Xiaohan Xing"
+    ],
+    "published": "2026-08-28T14:47:17Z",
+    "link": "http://arxiv.org/abs/2609.22187v1",
+    "pdf_link": "https://arxiv.org/pdf/2609.22187v1"
+  },
+  {
     "title": "Loom: Multi-Region Analysis of Spatial Transcriptomics with Local Neighborhoods and Global Trajectories",
     "authors": [
       "Siyuan Zhao",
@@ -47,13 +60,14 @@
       "Nona Farbehi",
       "Nigel Lovell",
       "Ahmadreza Argha",
+      "Thantrira Porntaveetusm",
       "Fatemeh Vafaee",
       "Youqiong Ye",
       "Hamid Alinejad-Rokny"
     ],
     "published": "2026-07-19T12:29:35Z",
-    "link": "http://arxiv.org/abs/2607.17227v1",
-    "pdf_link": "https://arxiv.org/pdf/2607.17227v1"
+    "link": "http://arxiv.org/abs/2607.17227v2",
+    "pdf_link": "https://arxiv.org/pdf/2607.17227v2"
   },
   {
     "title": "DiSTILL: A Hybrid Cloud-HPC Workflow System for Reproducible Spatial Transcriptomics Analysis",
@@ -217,8 +231,8 @@
       "Didong Li"
     ],
     "published": "2025-10-09T01:03:58Z",
-    "link": "http://arxiv.org/abs/2510.07653v3",
-    "pdf_link": "https://arxiv.org/pdf/2510.07653v3"
+    "link": "http://arxiv.org/abs/2510.07653v4",
+    "pdf_link": "https://arxiv.org/pdf/2510.07653v4"
   },
   {
     "title": "Benchmarking Dimensionality Reduction Techniques for Spatial Transcriptomics",
@@ -430,20 +444,5 @@
     "published": "2024-12-04T14:07:11Z",
     "link": "http://arxiv.org/abs/2412.03614v2",
     "pdf_link": "https://arxiv.org/pdf/2412.03614v2"
-  },
-  {
-    "title": "SUICA: Learning Super-high Dimensional Sparse Implicit Neural Representations for Spatial Transcriptomics",
-    "authors": [
-      "Qingtian Zhu",
-      "Yumin Zheng",
-      "Yuling Sang",
-      "Yifan Zhan",
-      "Ziyan Zhu",
-      "Jun Ding",
-      "Yinqiang Zheng"
-    ],
-    "published": "2024-12-02T05:02:18Z",
-    "link": "http://arxiv.org/abs/2412.01124v2",
-    "pdf_link": "https://arxiv.org/pdf/2412.01124v2"
   }
 ]
