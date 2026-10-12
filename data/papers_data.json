@@ -1,5 +1,20 @@
 [
   {
+    "title": "PhySeqNet: physics-informed fluorescent foci detection for BARseq spatial transcriptomics",
+    "authors": [
+      "Neha Goswami",
+      "John Hover",
+      "Renae Galluccio",
+      "Yichen Wu",
+      "Huiqing Zhan",
+      "Xiaoyin Chen",
+      "Anthony M. Zador"
+    ],
+    "published": "2026-10-09T15:59:41Z",
+    "link": "http://arxiv.org/abs/2610.13779v1",
+    "pdf_link": "https://arxiv.org/pdf/2610.13779v1"
+  },
+  {
     "title": "VizIt: A multi-view framework for exploring single-cell, spatial, and genetic data online",
     "authors": [
       "Chenhang Christopher Zhang",
@@ -431,18 +446,5 @@
     "published": "2024-12-14T03:09:04Z",
     "link": "http://arxiv.org/abs/2412.10659v1",
     "pdf_link": "https://arxiv.org/pdf/2412.10659v1"
-  },
-  {
-    "title": "Deep Learning in Single-Cell and Spatial Transcriptomics Data Analysis: Advances and Challenges from a Data Science Perspective",
-    "authors": [
-      "Shuang Ge",
-      "Shuqing Sun",
-      "Huan Xu",
-      "Qiang Cheng",
-      "Zhixiang Ren"
-    ],
-    "published": "2024-12-04T14:07:11Z",
-    "link": "http://arxiv.org/abs/2412.03614v2",
-    "pdf_link": "https://arxiv.org/pdf/2412.03614v2"
   }
 ]
