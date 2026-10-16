@@ -180,10 +180,9 @@
     "pdf_link": "https://arxiv.org/pdf/2601.15504v1"
   },
   {
-    "title": "Imaging-anchored Multiomics in Cardiovascular Disease: Integrating Cardiac Imaging, Bulk, Single-cell, and Spatial Transcriptomics",
+    "title": "Imaging-anchored multiomics in cardiovascular disease: integrating cardiac imaging, bulk, single-cell, and spatial transcriptomics",
     "authors": [
       "Minh H. N. Le",
-      "Tuan Vinh",
       "Thanh-Huy Nguyen",
       "Tao Li",
       "Bao Quang Gia Le",
@@ -191,11 +190,12 @@
       "Monika Raj",
       "Carl Yang",
       "Min Xu",
+      "Tuan Vinh",
       "Nguyen Quoc Khanh Le"
     ],
     "published": "2026-01-10T23:30:49Z",
-    "link": "http://arxiv.org/abs/2601.07871v2",
-    "pdf_link": "https://arxiv.org/pdf/2601.07871v2"
+    "link": "http://arxiv.org/abs/2601.07871v3",
+    "pdf_link": "https://arxiv.org/pdf/2601.07871v3"
   },
   {
     "title": "PHD-MS: Multiscale Domain Identification for Spatial Transcriptomics via Persistent Homology",
