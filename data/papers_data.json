@@ -1,5 +1,34 @@
 [
   {
+    "title": "Spatially Informed and Direction Sensitive Representation Learning for Spatial Transcriptomics",
+    "authors": [
+      "Azim Dehghani Amirabad",
+      "Ali Khodabandeh Yalabadi",
+      "Artem Moskalev",
+      "Yun-Ching Chen",
+      "Mehdi Pirooznia",
+      "Scott Oloff",
+      "Rui Liao"
+    ],
+    "published": "2026-10-20T17:32:57Z",
+    "link": "http://arxiv.org/abs/2610.28579v1",
+    "pdf_link": "https://arxiv.org/pdf/2610.28579v1"
+  },
+  {
+    "title": "VGL-stGen: Learning a shared multimodal model for lung histology and spatial transcriptomics",
+    "authors": [
+      "Haenara Shin",
+      "Dongjoo Lee",
+      "Sungwoo Bae",
+      "Kwon Joong Na",
+      "Daeseung Lee",
+      "Hongyoon Choi"
+    ],
+    "published": "2026-10-20T14:22:47Z",
+    "link": "http://arxiv.org/abs/2610.28266v1",
+    "pdf_link": "https://arxiv.org/pdf/2610.28266v1"
+  },
+  {
     "title": "PhySeqNet: physics-informed fluorescent foci detection for BARseq spatial transcriptomics",
     "authors": [
       "Neha Goswami",
@@ -419,32 +448,5 @@
     "published": "2025-04-15T22:03:38Z",
     "link": "http://arxiv.org/abs/2504.12353v1",
     "pdf_link": "https://arxiv.org/pdf/2504.12353v1"
-  },
-  {
-    "title": "Spatial Transcriptomics Iterative Hierarchical Clustering (stIHC): A Novel Method for Identifying Spatial Gene Co-Expression Modules",
-    "authors": [
-      "Catherine Higgins",
-      "Jingyi Jessica Li",
-      "Michelle Carey"
-    ],
-    "published": "2025-02-13T18:31:24Z",
-    "link": "http://arxiv.org/abs/2502.09574v1",
-    "pdf_link": "https://arxiv.org/pdf/2502.09574v1"
-  },
-  {
-    "title": "MEATRD: Multimodal Anomalous Tissue Region Detection Enhanced with Spatial Transcriptomics",
-    "authors": [
-      "Kaichen Xu",
-      "Qilong Wu",
-      "Yan Lu",
-      "Yinan Zheng",
-      "Wenlin Li",
-      "Xingjie Tang",
-      "Jun Wang",
-      "Xiaobo Sun"
-    ],
-    "published": "2024-12-14T03:09:04Z",
-    "link": "http://arxiv.org/abs/2412.10659v1",
-    "pdf_link": "https://arxiv.org/pdf/2412.10659v1"
   }
 ]
