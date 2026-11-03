@@ -1,5 +1,27 @@
 [
   {
+    "title": "HistoTx: Early fusion of H&E images and spatial transcriptomics at varying spatial transcriptomics resolution with self-supervised learning",
+    "authors": [
+      "Alice Driessen",
+      "Emil Malmsten",
+      "Steffen Wolf",
+      "Bernd Illing",
+      "Isinsu Katircioglu",
+      "Adriano Martinelli",
+      "Rolf Stahel",
+      "Solange Peters",
+      "Enriqueta Felip",
+      "Sanjay Popat",
+      "Krisztian Homicsko",
+      "Raphael Gottardo",
+      "Marianna Rapsomaniki",
+      "Fei Tang"
+    ],
+    "published": "2026-11-02T07:36:09Z",
+    "link": "http://arxiv.org/abs/2611.02681v1",
+    "pdf_link": "https://arxiv.org/pdf/2611.02681v1"
+  },
+  {
     "title": "Spatially Informed and Direction Sensitive Representation Learning for Spatial Transcriptomics",
     "authors": [
       "Azim Dehghani Amirabad",
@@ -434,19 +456,5 @@
     "published": "2025-05-15T22:14:39Z",
     "link": "http://arxiv.org/abs/2505.10729v1",
     "pdf_link": "https://arxiv.org/pdf/2505.10729v1"
-  },
-  {
-    "title": "TransST: Transfer Learning Embedded Spatial Factor Modeling of Spatial Transcriptomics Data",
-    "authors": [
-      "Shuo Shuo Liu",
-      "Shikun Wang",
-      "Yuxuan Chen",
-      "Anil K. Rustgi",
-      "Ming Yuan",
-      "Jianhua Hu"
-    ],
-    "published": "2025-04-15T22:03:38Z",
-    "link": "http://arxiv.org/abs/2504.12353v1",
-    "pdf_link": "https://arxiv.org/pdf/2504.12353v1"
   }
 ]
