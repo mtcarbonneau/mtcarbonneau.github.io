@@ -1,5 +1,18 @@
 [
   {
+    "title": "Publications as benchmarks: auditing AI agents on spatial transcriptomics alignment",
+    "authors": [
+      "Yiqun T. Chen",
+      "Jan Matthias",
+      "Jianing Yao",
+      "Hongyu Eric Zhao",
+      "Stephanie C. Hicks"
+    ],
+    "published": "2026-11-09T02:53:11Z",
+    "link": "http://arxiv.org/abs/2611.11796v1",
+    "pdf_link": "https://arxiv.org/pdf/2611.11796v1"
+  },
+  {
     "title": "HistoTx: Early fusion of H&E images and spatial transcriptomics at varying spatial transcriptomics resolution with self-supervised learning",
     "authors": [
       "Alice Driessen",
@@ -443,18 +456,5 @@
     "published": "2025-05-16T15:46:55Z",
     "link": "http://arxiv.org/abs/2505.11384v1",
     "pdf_link": "https://arxiv.org/pdf/2505.11384v1"
-  },
-  {
-    "title": "Adaptive Spatial Transcriptomics Interpolation via Cross-modal Cross-slice Modeling",
-    "authors": [
-      "NingFeng Que",
-      "Xiaofei Wang",
-      "Jingjing Chen",
-      "Yixuan Jiang",
-      "Chao Li"
-    ],
-    "published": "2025-05-15T22:14:39Z",
-    "link": "http://arxiv.org/abs/2505.10729v1",
-    "pdf_link": "https://arxiv.org/pdf/2505.10729v1"
   }
 ]
