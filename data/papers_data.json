@@ -1,5 +1,19 @@
 [
   {
+    "title": "More Genes, Faster Inference: Efficient Large-Panel Spatial Transcriptomics Prediction from Histology",
+    "authors": [
+      "Songming Zhang",
+      "Yuxiao Luo",
+      "Shifu Luo",
+      "Siran Chen",
+      "Shuquan Su",
+      "Jinyan Li"
+    ],
+    "published": "2026-11-13T08:35:27Z",
+    "link": "http://arxiv.org/abs/2611.17899v1",
+    "pdf_link": "https://arxiv.org/pdf/2611.17899v1"
+  },
+  {
     "title": "Publications as benchmarks: auditing AI agents on spatial transcriptomics alignment",
     "authors": [
       "Yiqun T. Chen",
@@ -444,17 +458,5 @@
     "published": "2025-05-25T01:29:19Z",
     "link": "http://arxiv.org/abs/2506.05361v1",
     "pdf_link": "https://arxiv.org/pdf/2506.05361v1"
-  },
-  {
-    "title": "MOSAIK: Multi-Origin Spatial Transcriptomics Analysis and Integration Kit",
-    "authors": [
-      "Anthony Baptista",
-      "Rosamond Nuamah",
-      "Ciro Chiappini",
-      "Anita Grigoriadis"
-    ],
-    "published": "2025-05-16T15:46:55Z",
-    "link": "http://arxiv.org/abs/2505.11384v1",
-    "pdf_link": "https://arxiv.org/pdf/2505.11384v1"
   }
 ]
