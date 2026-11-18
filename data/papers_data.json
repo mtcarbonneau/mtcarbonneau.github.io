@@ -1,5 +1,30 @@
 [
   {
+    "title": "ST-FateFlow: Continuous Gene-Spatial Reconstruction with Differentiation-Potential Learning from Time-Resolved Spatial Transcriptomics",
+    "authors": [
+      "Zhe Yu",
+      "Xiaobo Sun",
+      "Hao Wu"
+    ],
+    "published": "2026-11-17T06:00:29Z",
+    "link": "http://arxiv.org/abs/2611.22256v1",
+    "pdf_link": "https://arxiv.org/pdf/2611.22256v1"
+  },
+  {
+    "title": "HoloGene: Learning to Lift Sliced Spatial Transcriptomics to Holistic 3D Gene Fields",
+    "authors": [
+      "Yumin Zheng",
+      "Qingtian Zhu",
+      "Ziyan Zhu",
+      "Kailu Song",
+      "Yinqiang Zheng",
+      "Jun Ding"
+    ],
+    "published": "2026-11-16T00:58:29Z",
+    "link": "http://arxiv.org/abs/2611.20368v1",
+    "pdf_link": "https://arxiv.org/pdf/2611.20368v1"
+  },
+  {
     "title": "More Genes, Faster Inference: Efficient Large-Panel Spatial Transcriptomics Prediction from Histology",
     "authors": [
       "Songming Zhang",
@@ -431,32 +456,5 @@
     "published": "2025-06-13T06:30:48Z",
     "link": "http://arxiv.org/abs/2506.11491v2",
     "pdf_link": "https://arxiv.org/pdf/2506.11491v2"
-  },
-  {
-    "title": "HEIST: A Graph Foundation Model for Spatial Transcriptomics and Proteomics Data",
-    "authors": [
-      "Hiren Madhu",
-      "João Felipe Rocha",
-      "Tinglin Huang",
-      "Siddharth Viswanath",
-      "Smita Krishnaswamy",
-      "Rex Ying"
-    ],
-    "published": "2025-06-11T12:29:01Z",
-    "link": "http://arxiv.org/abs/2506.11152v4",
-    "pdf_link": "https://arxiv.org/pdf/2506.11152v4"
-  },
-  {
-    "title": "Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching",
-    "authors": [
-      "Tinglin Huang",
-      "Tianyu Liu",
-      "Mehrtash Babadi",
-      "Wengong Jin",
-      "Rex Ying"
-    ],
-    "published": "2025-05-25T01:29:19Z",
-    "link": "http://arxiv.org/abs/2506.05361v1",
-    "pdf_link": "https://arxiv.org/pdf/2506.05361v1"
   }
 ]
